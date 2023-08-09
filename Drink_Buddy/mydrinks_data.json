@@ -1,0 +1,4346 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-07-03T09:50:05.314Z",
+    "user": 10,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Your daily coffee ritual, simplified.",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-07-03T09:50:34.267Z",
+    "user": 10,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Your daily coffee ritual, simplified.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-07-03T09:52:07.875Z",
+    "user": 10,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Your daily coffee ritual, simplified.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Url\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-07-03T10:30:36.876Z",
+    "user": 10,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "blog 2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-07-06T10:53:24.831Z",
+    "user": 11,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "How coffee helps you",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-07-06T11:02:45.150Z",
+    "user": 11,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "How coffee helps you",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-07-06T11:03:32.162Z",
+    "user": 11,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "How coffee helps you",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-07-06T11:03:46.540Z",
+    "user": 11,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "first",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-07-06T11:45:37.286Z",
+    "user": 11,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "The History of Coffee: From Ancient Origins to Modern-day Culture",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-07-06T11:45:52.178Z",
+    "user": 11,
+    "content_type": 12,
+    "object_id": "3",
+    "object_repr": "Coffee Bean Varieties: Exploring Different Types and Flavors",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-07-06T11:46:08.604Z",
+    "user": 11,
+    "content_type": 12,
+    "object_id": "4",
+    "object_repr": "Brewing Methods: A Comprehensive Guide to Brewing the Perfect Cup",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-07-06T11:46:23.898Z",
+    "user": 11,
+    "content_type": 12,
+    "object_id": "5",
+    "object_repr": "Coffee and Health: Understanding the Benefits and Risks",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-07-06T11:47:24.914Z",
+    "user": 11,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "The History of Coffee: From Ancient Origins to Modern-day Culture",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-07-06T11:48:06.417Z",
+    "user": 11,
+    "content_type": 12,
+    "object_id": "6",
+    "object_repr": "Coffee Around the World: Discovering Unique Regional Brews",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-07-06T11:48:40.544Z",
+    "user": 11,
+    "content_type": 12,
+    "object_id": "3",
+    "object_repr": "Coffee Bean Varieties: Exploring Different Types and Flavors",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-07-06T11:51:35.855Z",
+    "user": 11,
+    "content_type": 12,
+    "object_id": "4",
+    "object_repr": "Brewing Methods: A Comprehensive Guide to Brewing the Perfect Cup",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-07-06T11:51:52.717Z",
+    "user": 11,
+    "content_type": 12,
+    "object_id": "5",
+    "object_repr": "Coffee and Health: Understanding the Benefits and Risks",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2023-07-06T11:58:13.047Z",
+    "user": 11,
+    "content_type": 12,
+    "object_id": "5",
+    "object_repr": "Coffee and Art: The Intersection of Coffee Culture and Creativity",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2023-07-06T11:59:34.381Z",
+    "user": 11,
+    "content_type": 12,
+    "object_id": "6",
+    "object_repr": "Pairing Coffee with Food: Unleashing the Flavors in Perfect Harmony",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2023-07-07T08:09:49.530Z",
+    "user": 11,
+    "content_type": 12,
+    "object_id": "6",
+    "object_repr": "Pairing Coffee with Food: Unleashing the Flavors in Perfect Harmony",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2023-07-07T08:12:04.784Z",
+    "user": 11,
+    "content_type": 12,
+    "object_id": "4",
+    "object_repr": "Brewing Methods: A Comprehensive Guide to Brewing the Perfect Cup",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2023-07-07T08:13:08.024Z",
+    "user": 11,
+    "content_type": 12,
+    "object_id": "3",
+    "object_repr": "Coffee Bean Varieties: Exploring Different Types and Flavors",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2023-07-07T08:14:01.549Z",
+    "user": 11,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "The History of Coffee: From Ancient Origins to Modern-day Culture",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2023-07-07T08:21:28.103Z",
+    "user": 11,
+    "content_type": 12,
+    "object_id": "7",
+    "object_repr": "Decoding Coffee Alternatives: Discovering Delicious Non-Caffeinated Beverages",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2023-07-07T08:31:45.037Z",
+    "user": 11,
+    "content_type": 12,
+    "object_id": "8",
+    "object_repr": "Navigating the World of Non-Alcoholic Beer: Flavorful Alternatives for Beer Enthusiasts",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2023-07-07T08:32:46.037Z",
+    "user": 11,
+    "content_type": 12,
+    "object_id": "9",
+    "object_repr": "Healthy Hydration Habits: Exploring Refreshing and Nutritious Non-Alcoholic Drinks",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2023-07-07T08:35:11.021Z",
+    "user": 11,
+    "content_type": 12,
+    "object_id": "8",
+    "object_repr": "Navigating the World of Non-Alcoholic Beer: Flavorful Alternatives for Beer Enthusiasts",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2023-07-07T08:38:03.773Z",
+    "user": 11,
+    "content_type": 12,
+    "object_id": "9",
+    "object_repr": "Healthy Hydration Habits: Exploring Refreshing and Nutritious Non-Alcoholic Drinks",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2023-07-07T08:40:57.102Z",
+    "user": 11,
+    "content_type": 12,
+    "object_id": "10",
+    "object_repr": "The Art of Tea Blending: Creating Unique and Flavorful Tea Infusions",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2023-07-07T08:43:04.158Z",
+    "user": 11,
+    "content_type": 12,
+    "object_id": "11",
+    "object_repr": "Mocktail Magic: Crafting Delicious Non-Alcoholic Cocktails for Every Occasion",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2023-07-12T13:31:34.956Z",
+    "user": 11,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Drink object (1)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagefile\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2023-07-12T13:32:42.939Z",
+    "user": 11,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Drink object (2)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagefile\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2023-07-12T13:32:53.506Z",
+    "user": 11,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Drink object (3)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagefile\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2023-07-12T13:33:06.551Z",
+    "user": 11,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Drink object (4)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagefile\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2023-07-12T13:33:19.571Z",
+    "user": 11,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "Drink object (5)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagefile\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2023-07-12T13:33:30.601Z",
+    "user": 11,
+    "content_type": 11,
+    "object_id": "6",
+    "object_repr": "Drink object (6)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagefile\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2023-07-12T13:33:40.988Z",
+    "user": 11,
+    "content_type": 11,
+    "object_id": "7",
+    "object_repr": "Drink object (7)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagefile\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2023-07-12T13:33:52.206Z",
+    "user": 11,
+    "content_type": 11,
+    "object_id": "8",
+    "object_repr": "Drink object (8)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagefile\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2023-07-12T13:34:06.296Z",
+    "user": 11,
+    "content_type": 11,
+    "object_id": "9",
+    "object_repr": "Drink object (9)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagefile\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2023-07-12T13:34:18.895Z",
+    "user": 11,
+    "content_type": 11,
+    "object_id": "10",
+    "object_repr": "Drink object (10)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagefile\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2023-07-12T13:34:33.977Z",
+    "user": 11,
+    "content_type": 11,
+    "object_id": "11",
+    "object_repr": "Drink object (11)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagefile\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2023-07-12T13:34:46.514Z",
+    "user": 11,
+    "content_type": 11,
+    "object_id": "12",
+    "object_repr": "Drink object (12)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagefile\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2023-07-12T13:35:00.020Z",
+    "user": 11,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "Drink object (13)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagefile\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2023-07-12T13:35:13.518Z",
+    "user": 11,
+    "content_type": 11,
+    "object_id": "14",
+    "object_repr": "Drink object (14)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagefile\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2023-07-12T13:35:28.266Z",
+    "user": 11,
+    "content_type": 11,
+    "object_id": "15",
+    "object_repr": "Drink object (15)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagefile\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2023-07-12T13:35:42.196Z",
+    "user": 11,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Drink object (16)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagefile\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2023-07-12T13:35:52.286Z",
+    "user": 11,
+    "content_type": 11,
+    "object_id": "17",
+    "object_repr": "Drink object (17)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagefile\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2023-07-12T13:36:03.820Z",
+    "user": 11,
+    "content_type": 11,
+    "object_id": "18",
+    "object_repr": "Drink object (18)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagefile\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2023-07-12T13:36:15.300Z",
+    "user": 11,
+    "content_type": 11,
+    "object_id": "19",
+    "object_repr": "Drink object (19)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagefile\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2023-07-12T13:36:26.277Z",
+    "user": 11,
+    "content_type": 11,
+    "object_id": "20",
+    "object_repr": "Drink object (20)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagefile\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add drinks",
+    "content_type": 7,
+    "codename": "add_drinks"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change drinks",
+    "content_type": 7,
+    "codename": "change_drinks"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete drinks",
+    "content_type": 7,
+    "codename": "delete_drinks"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view drinks",
+    "content_type": 7,
+    "codename": "view_drinks"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add user location",
+    "content_type": 8,
+    "codename": "add_userlocation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change user location",
+    "content_type": 8,
+    "codename": "change_userlocation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete user location",
+    "content_type": 8,
+    "codename": "delete_userlocation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view user location",
+    "content_type": 8,
+    "codename": "view_userlocation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add user location",
+    "content_type": 9,
+    "codename": "add_userlocation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change user location",
+    "content_type": 9,
+    "codename": "change_userlocation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete user location",
+    "content_type": 9,
+    "codename": "delete_userlocation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view user location",
+    "content_type": 9,
+    "codename": "view_userlocation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add blog",
+    "content_type": 10,
+    "codename": "add_blog"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change blog",
+    "content_type": 10,
+    "codename": "change_blog"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete blog",
+    "content_type": 10,
+    "codename": "delete_blog"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view blog",
+    "content_type": 10,
+    "codename": "view_blog"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add drink",
+    "content_type": 11,
+    "codename": "add_drink"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change drink",
+    "content_type": 11,
+    "codename": "change_drink"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete drink",
+    "content_type": 11,
+    "codename": "delete_drink"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view drink",
+    "content_type": 11,
+    "codename": "view_drink"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add educational",
+    "content_type": 12,
+    "codename": "add_educational"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change educational",
+    "content_type": 12,
+    "codename": "change_educational"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete educational",
+    "content_type": 12,
+    "codename": "delete_educational"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view educational",
+    "content_type": 12,
+    "codename": "view_educational"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$DlmgxHWQorQ9SwO22ZrWdR$mS8dTyhK1K1IZMydauv+Pc4sGw17nrvDO1ZgI4miKT8=",
+    "last_login": "2023-07-11T12:20:21.031Z",
+    "is_superuser": false,
+    "username": "Raman",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-06-29T08:42:41.469Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$5APqiA2kgZRO9zONcIV7dg$ioaMMvFK6imW4ii1iYBGJMk1a+3MazhW5HkQhqrzjM4=",
+    "last_login": "2023-06-29T08:46:50.237Z",
+    "is_superuser": false,
+    "username": "user3",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-06-29T08:45:03.320Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$Yamx6F8oeALI38B7249a12$GRVekv6gVv0be6Kq1FUAUmm37iz/V4wDs0u99trL2uQ=",
+    "last_login": "2023-07-07T09:47:11.627Z",
+    "is_superuser": false,
+    "username": "user4",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-06-29T08:48:59.615Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$u0IOBeSfYYnkYhMeyKjazm$b2RWy+qo4Av7/a1zJuYSRAxYBHDux+GyyxtggFb0mzs=",
+    "last_login": "2023-06-29T10:05:22.248Z",
+    "is_superuser": false,
+    "username": "user5",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-06-29T10:05:22.045Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 8,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$UNaP1WWu4QGXxW9yxJlfpc$NsWCpB0y3VOXn6QlyXsFiKJvP2I1czc4XGVpp8fBpxU=",
+    "last_login": "2023-06-29T17:25:45.578Z",
+    "is_superuser": false,
+    "username": "user2",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-06-29T17:25:45.413Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 10,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$YrHYzmrrzs5uGnzmXOtzxi$1IyAJaxvuZtW2Vuf623V5ABNjW+FaiImBSjiYeY/sEE=",
+    "last_login": "2023-07-03T09:39:23.974Z",
+    "is_superuser": true,
+    "username": "Drinkbuddy",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-07-03T09:30:48.677Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 11,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$NTe0aGy8pbhwkMZrbB5jDW$D5iQWuK1h6dMKs9oPVm35EPNkrVpXst6BVx8SYYvbGM=",
+    "last_login": "2023-07-13T12:16:21.953Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-07-05T13:50:40.680Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 12,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$M4bPyaRIaBBnjl3FCIPgbc$FKJ8AF1cL4CL8H5jNDmGj/h1JW8loqh4BRk9Xrqm74A=",
+    "last_login": "2023-07-10T11:53:24.798Z",
+    "is_superuser": false,
+    "username": "Raman1",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-07-10T11:53:24.583Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 13,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$URklKaHQU1frUDvW6nHOFp$+Hbh+CbLfKiIwQn03L3vpYvsHH4bLpLMN1n9m3kf8Bo=",
+    "last_login": "2023-07-13T12:35:56.318Z",
+    "is_superuser": false,
+    "username": "user1",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-07-12T07:49:00.956Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "drink_service",
+    "model": "drinks"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "drink_service",
+    "model": "userlocation"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "home",
+    "model": "userlocation"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "blog",
+    "model": "blog"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "drink_service",
+    "model": "drink"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "Educational",
+    "model": "educational"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5kqo7txull42zgbv80msz14iusfw6rog",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlleZ-2sKek5g7X-4QBypDipEHeHSCmgfTPzXsLztla_9bz4KYmzAHH63QLHR247SHdut1nGua3LFOSuyIN2eZ1Tfl4O9--gcq_feiiuMGGhAhaCQiRmcGitCVFZpckYFQbMDIBJkbajiwUJdAxkVB7F-wPHUzbf:1qHiNj:fCZyEQdfbvP8dN36IDZ2nRewt71EqDE4En_RVhtQV0k",
+    "expire_date": "2023-07-21T10:08:07.810Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "85ltbmmb3h0teyyliykie4mmepb73f61",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlleZ-2sKek5g7X-4QBypDipEHeHSCmgfTPzXsLztla_9bz4KYmzAHH63QLHR247SHdut1nGua3LFOSuyIN2eZ1Tfl4O9--gcq_feiiuMGGhAhaCQiRmcGitCVFZpckYFQbMDIBJkbajiwUJdAxkVB7F-wPHUzbf:1qIr6W:BifBntJKSxhRi_HQmFKMEoy8JN6E0ldxNuNrlOs1Bto",
+    "expire_date": "2023-07-24T13:39:04.287Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "adkga3vie0jz2fuuncjgddf2rnr786mj",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyHAgoJH7_0GsrCsVA1NSnsy_rtt0oMeZ96beYuI61Lj2sscRxJXAeL02yXMz9J2QA9s90nmqS3zmOSuyIN2OUxUXrfD_Tuo2Ou2DlxU4GCdAZPAXjiQ1ozocgHP7B0ZvSWbHKTiOVsEhajPCVhRoCw-X_LKOL0:1qFE50:poBilGuAU6mvgqOmoBrnOhKcl0dz90H4BvUqSy3M7WQ",
+    "expire_date": "2023-07-14T13:22:30.672Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "cdqp36oo16qk293jkfdsx4xouxdjajlo",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hBhYCgu3fcMZBhAqoYmpV0Z765NutDtf-_9lwi0rTVsPS9hSuIiFIjT7xiJH7ntJN2p3WbJc1uXKcpdkQftcpxTfl4P9--gUq_fGlUZrHYY0bMF49FD8tFYR3h2ULwtRrM3xAZ1QVDgXNSOiXOGoags3h_aUTdo:1qJvY4:hXV1abDKFcF6DMcHeQaAM-_kU0oE2ceS6i8a5OISyNM",
+    "expire_date": "2023-07-27T12:35:56.329Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "d9fl53amae47d9vbhlywwgc4lkkznzp4",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyHLWgQ8eu83EGAXqRpISnsy_rtt0oMeZ96beQsf1qX4tfPsJxJXoUCcfssY0pPrTugR6r3J1OoyT1Huijxol2Mjft0O9--ghF62NZAzGDIn0jBkA2fICJEUJp0tEzNuGS8UCF3GrIaIRiNbm1y0STvx-QIdZDiQ:1qGG1j:1hcVeRs_v5RVR4081_r1HlNXnzP-W8QLlmYYuroyNwI",
+    "expire_date": "2023-07-17T09:39:23.976Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "gt89v7vlgs8ybmmfwh4fk4ljbuiwktdk",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlleZ-2sKek5g7X-4QBypDipEHeHSCmgfTPzXsLztla_9bz4KYmzAHH63QLHR247SHdut1nGua3LFOSuyIN2eZ1Tfl4O9--gcq_feiiuMGGhAhaCQiRmcGitCVFZpckYFQbMDIBJkbajiwUJdAxkVB7F-wPHUzbf:1qHjtS:IosagSNAHSSmZL8pThodotu7H9j3qa_oLSJaeWOH0qU",
+    "expire_date": "2023-07-21T11:44:58.532Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "i4numi4cnod7q6lkpemiwq67ck2h8q1t",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-bexQ0nMGa-1d4wBypDipEHeHSCmgfTPzXiLitta4dV7iROIstBan3zFhfnDbCd2x3WaZ57YuU5K7Ig_a5XUmfl4O9--gYq_f2hhFHiCgRXIBBjsqz-RKSYUH70KwyHnUqI1HDFC800mRAW9ZoQkg3h_48Ten:1qJDDs:Nv2KsMUNMN9Uu9nRvdYpxdAQZjNkjRH3FTwcmNz3wX0",
+    "expire_date": "2023-07-25T13:16:08.940Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "qbs4dpxmpo7xi22idmlenub659z5tidn",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlleZ-2sKek5g7X-4QBypDipEHeHSCmgfTPzXsLztla_9bz4KYmzAHH63QLHR247SHdut1nGua3LFOSuyIN2eZ1Tfl4O9--gcq_feiiuMGGhAhaCQiRmcGitCVFZpckYFQbMDIBJkbajiwUJdAxkVB7F-wPHUzbf:1qHiKv:VmE9YNmz3P9znuU4dTH4x5PBz8bDE95VzkbsgTrdegM",
+    "expire_date": "2023-07-21T10:05:13.503Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "uv07z9yaup44n034h16rkpe2rb5xm52k",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlleZ-2sKek5g7X-4QBypDipEHeHSCmgfTPzXsLztla_9bz4KYmzAHH63QLHR247SHdut1nGua3LFOSuyIN2eZ1Tfl4O9--gcq_feiiuMGGhAhaCQiRmcGitCVFZpckYFQbMDIBJkbajiwUJdAxkVB7F-wPHUzbf:1qIpcy:Nm_7_JvLpQOMKJ0RgVICXHlymCS-BZN4U9DBsqm3mTs",
+    "expire_date": "2023-07-24T12:04:28.824Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "v12on9ebg6vrmptl4c7j4v0jna8y0kvg",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlleZ-2sKek5g7X-4QBypDipEHeHSCmgfTPzXsLztla_9bz4KYmzAHH63QLHR247SHdut1nGua3LFOSuyIN2eZ1Tfl4O9--gcq_feiiuMGGhAhaCQiRmcGitCVFZpckYFQbMDIBJkbajiwUJdAxkVB7F-wPHUzbf:1qIpg9:YQeBdME2rcCp0HTVkS3AWv4JuNuCdJeckUbP-_hA8co",
+    "expire_date": "2023-07-24T12:07:45.920Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wmfrwj83kae7dydk3pvdi9wo2ljme7yr",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-bexQ0nMGa-1d4wBypDipEHeHSCmgfTPzXiLitta4dV7iROIstBan3zFhfnDbCd2x3WaZ57YuU5K7Ig_a5XUmfl4O9--gYq_f2hhFHiCgRXIBBjsqz-RKSYUH70KwyHnUqI1HDFC800mRAW9ZoQkg3h_48Ten:1qHMbT:PMNiJOPA0aWnyf_PKfErL4GD10DmZk4FhF6woVOU42w",
+    "expire_date": "2023-07-20T10:52:51.327Z"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 1,
+  "fields": {
+    "location": "Berlin"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 2,
+  "fields": {
+    "location": "frankfurt"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 3,
+  "fields": {
+    "location": "new delhi"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 4,
+  "fields": {
+    "location": "Hamburg"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 5,
+  "fields": {
+    "location": "Hamburg"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 6,
+  "fields": {
+    "location": "Berlin"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 7,
+  "fields": {
+    "location": "Hamburg"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 8,
+  "fields": {
+    "location": "Berlin"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 9,
+  "fields": {
+    "location": "frankfurt"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 10,
+  "fields": {
+    "location": "bhikhi"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 11,
+  "fields": {
+    "location": "Hamburg"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 12,
+  "fields": {
+    "location": "Hamburg"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 13,
+  "fields": {
+    "location": "Berlin"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 14,
+  "fields": {
+    "location": "dadri"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 15,
+  "fields": {
+    "location": "Berlin"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 16,
+  "fields": {
+    "location": "london"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 17,
+  "fields": {
+    "location": "Berlin"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 18,
+  "fields": {
+    "location": "Hamburg"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 19,
+  "fields": {
+    "location": "Berlin"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 20,
+  "fields": {
+    "location": "Berlin"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 21,
+  "fields": {
+    "location": "Hamburg"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 22,
+  "fields": {
+    "location": "Berlin"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 23,
+  "fields": {
+    "location": "Berlin"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 24,
+  "fields": {
+    "location": "Berlin"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 25,
+  "fields": {
+    "location": "Hamburg"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 26,
+  "fields": {
+    "location": "Berlin"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 27,
+  "fields": {
+    "location": "Berlin"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 28,
+  "fields": {
+    "location": "frankfurt"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 29,
+  "fields": {
+    "location": "Hamburg"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 30,
+  "fields": {
+    "location": "Hamburg"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 31,
+  "fields": {
+    "location": "Hamburg"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 32,
+  "fields": {
+    "location": "Hamburg"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 33,
+  "fields": {
+    "location": "Hamburg"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 34,
+  "fields": {
+    "location": "Hamburg"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 35,
+  "fields": {
+    "location": "Hamburg"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 36,
+  "fields": {
+    "location": "Hamburg"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 37,
+  "fields": {
+    "location": "Hamburg"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 38,
+  "fields": {
+    "location": "Hamburg"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 39,
+  "fields": {
+    "location": "Berlin"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 40,
+  "fields": {
+    "location": "Berlin"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 41,
+  "fields": {
+    "location": "Hamburg"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 42,
+  "fields": {
+    "location": "bhikhi"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 43,
+  "fields": {
+    "location": "Hamburg"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 44,
+  "fields": {
+    "location": "bhikhi"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 45,
+  "fields": {
+    "location": "frankfurt"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 46,
+  "fields": {
+    "location": "Berlin"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 47,
+  "fields": {
+    "location": "Berlin"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 48,
+  "fields": {
+    "location": "Berlin"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 49,
+  "fields": {
+    "location": "Hamburg"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 50,
+  "fields": {
+    "location": "Berlin"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 51,
+  "fields": {
+    "location": "Berlin"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 52,
+  "fields": {
+    "location": "Berlin"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 53,
+  "fields": {
+    "location": "frankfurt"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 54,
+  "fields": {
+    "location": "Berlin"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 55,
+  "fields": {
+    "location": "Berlin"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 56,
+  "fields": {
+    "location": "frankfurt"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 57,
+  "fields": {
+    "location": "Tokyo"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 58,
+  "fields": {
+    "location": "seoul"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 59,
+  "fields": {
+    "location": "pyongang"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 60,
+  "fields": {
+    "location": "lahore"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 61,
+  "fields": {
+    "location": "mecca"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 62,
+  "fields": {
+    "location": "Berlin"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 63,
+  "fields": {
+    "location": "Berlin"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 64,
+  "fields": {
+    "location": "Berlin"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 65,
+  "fields": {
+    "location": "Berlin"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 66,
+  "fields": {
+    "location": "Berlin"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 67,
+  "fields": {
+    "location": "Berlin"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 68,
+  "fields": {
+    "location": "london"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 69,
+  "fields": {
+    "location": "Berlin"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 70,
+  "fields": {
+    "location": "Hamburg"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 71,
+  "fields": {
+    "location": "Berlin"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 72,
+  "fields": {
+    "location": "Berlin"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 73,
+  "fields": {
+    "location": "Berlin"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 74,
+  "fields": {
+    "location": "bhikhi"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 75,
+  "fields": {
+    "location": "Hamburg"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 76,
+  "fields": {
+    "location": "Hamburg"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 77,
+  "fields": {
+    "location": "Munich"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 78,
+  "fields": {
+    "location": "Hamburg"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 79,
+  "fields": {
+    "location": "Hamburg"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 80,
+  "fields": {
+    "location": "Hamburg"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 81,
+  "fields": {
+    "location": "Munich"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 82,
+  "fields": {
+    "location": "Hamburg"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 83,
+  "fields": {
+    "location": "Hamburg"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 84,
+  "fields": {
+    "location": "Hamburg"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 85,
+  "fields": {
+    "location": "Mangalore"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 86,
+  "fields": {
+    "location": "Munich"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 87,
+  "fields": {
+    "location": "Iceland"
+  }
+},
+{
+  "model": "drink_service.userlocation",
+  "pk": 88,
+  "fields": {
+    "location": "Hamburg"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 1,
+  "fields": {
+    "name": "Iced Coffee",
+    "ingredients": "Coffee, milk, sugar, ice cubes",
+    "recipe": "1. Brew coffee. 2. Mix coffee with milk and sugar. 3. Pour over ice cubes.",
+    "timeofyear": "Summer",
+    "timetodrink": "any",
+    "socialsituation": "Relaxing at home",
+    "mood": "Refreshing",
+    "iscoffee": true,
+    "istea": false,
+    "isalcoholic": false,
+    "isnonalcoholic": true,
+    "imagefile": "1",
+    "temperatureoflocation": "20+",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 2,
+  "fields": {
+    "name": "Mojito",
+    "ingredients": "Rum, lime juice, mint leaves, sugar, soda water, ice cubes",
+    "recipe": "1. Muddle mint leaves with sugar and lime juice. 2. Add rum and mix. 3. Pour over ice cubes. 4. Top with soda water.",
+    "timeofyear": "Summer",
+    "timetodrink": "any",
+    "socialsituation": "Outdoor party",
+    "mood": "Energetic",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "2",
+    "temperatureoflocation": "20+",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 3,
+  "fields": {
+    "name": "Green Tea",
+    "ingredients": "Green tea leaves, hot water",
+    "recipe": "1. Steep green tea leaves in hot water for 3 minutes. 2. Strain and serve.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "Studying or working",
+    "mood": "Calm",
+    "iscoffee": false,
+    "istea": true,
+    "isalcoholic": false,
+    "isnonalcoholic": false,
+    "imagefile": "3",
+    "temperatureoflocation": "20+",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 4,
+  "fields": {
+    "name": "Mango Lassi",
+    "ingredients": "Mango, yogurt, milk, sugar, cardamom",
+    "recipe": "1. Blend mango, yogurt, milk, sugar, and cardamom until smooth. 2. Serve chilled.",
+    "timeofyear": "Summer",
+    "timetodrink": "any",
+    "socialsituation": "at the beach",
+    "mood": "Calm",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": false,
+    "isnonalcoholic": true,
+    "imagefile": "4",
+    "temperatureoflocation": "20+",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 5,
+  "fields": {
+    "name": "Hot Chocolate",
+    "ingredients": "Cocoa powder, milk, sugar, whipped cream",
+    "recipe": "1. Mix cocoa powder and sugar in a saucepan. 2. Heat milk in another saucepan. 3. Add cocoa mixture to hot milk and whisk until smooth. 4. Serve with whipped cream on top.",
+    "timeofyear": "winter",
+    "timetodrink": "any",
+    "socialsituation": "Cozy night at home",
+    "mood": "Comforted",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": false,
+    "isnonalcoholic": true,
+    "imagefile": "5",
+    "temperatureoflocation": "-15 to 0",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 6,
+  "fields": {
+    "name": "Margarita",
+    "ingredients": "Tequila, lime juice, triple sec, salt",
+    "recipe": "1. Rim the glass with salt. 2. Mix tequila, lime juice, and triple sec. 3. Pour into the glass. 4. Serve chilled.",
+    "timeofyear": "summer",
+    "timetodrink": "any",
+    "socialsituation": "with friends",
+    "mood": "Joyful",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "6",
+    "temperatureoflocation": "20+",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 7,
+  "fields": {
+    "name": "Matcha Latte",
+    "ingredients": "Matcha powder, hot water, milk, honey",
+    "recipe": "1. Whisk matcha powder with hot water until frothy. 2. Heat milk and honey in a saucepan. 3. Pour milk mixture over matcha and stir gently.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "for breakfast",
+    "mood": "Reflective",
+    "iscoffee": false,
+    "istea": true,
+    "isalcoholic": false,
+    "isnonalcoholic": false,
+    "imagefile": "7",
+    "temperatureoflocation": "-15 to 20+",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 8,
+  "fields": {
+    "name": "Pina Colada",
+    "ingredients": "Rum, pineapple juice, coconut cream, ice cubes",
+    "recipe": "1. Blend rum, pineapple juice, coconut cream, and ice cubes until smooth. 2. Serve chilled.",
+    "timeofyear": "summer",
+    "timetodrink": "any",
+    "socialsituation": "at the beach",
+    "mood": "Relaxed",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "8",
+    "temperatureoflocation": "20+",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 9,
+  "fields": {
+    "name": "Iced Tea",
+    "ingredients": "Tea bags, hot water, sugar, lemon slices, ice cubes",
+    "recipe": "1. Steep tea bags in hot water for 5 minutes. 2. Add sugar and stir until dissolved. 3. Add lemon slices. 4. Pour over ice cubes.",
+    "timeofyear": "summer",
+    "timetodrink": "any",
+    "socialsituation": "with friends",
+    "mood": "Refreshing",
+    "iscoffee": false,
+    "istea": true,
+    "isalcoholic": false,
+    "isnonalcoholic": false,
+    "imagefile": "9",
+    "temperatureoflocation": "20+",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 10,
+  "fields": {
+    "name": "Hot Cider",
+    "ingredients": "Apple cider, cinnamon sticks, cloves, orange slices",
+    "recipe": "1. Heat apple cider in a saucepan. 2. Add cinnamon sticks, cloves, and orange slices. 3. Simmer for 10 minutes. 4. Strain and serve hot.",
+    "timeofyear": "fall",
+    "timetodrink": "any",
+    "socialsituation": "Relaxing at home",
+    "mood": "Cozy",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": false,
+    "isnonalcoholic": true,
+    "imagefile": "10",
+    "temperatureoflocation": "0 to 10",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 11,
+  "fields": {
+    "name": "Sangria",
+    "ingredients": "Red wine, orange juice, brandy, sugar, fruit slices",
+    "recipe": "1. Mix red wine, orange juice, brandy, and sugar. 2. Add fruit slices. 3. Chill for at least 2 hours. 4. Serve over ice.",
+    "timeofyear": "summer",
+    "timetodrink": "any",
+    "socialsituation": "Outdoor brunch",
+    "mood": "Sociable",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "11",
+    "temperatureoflocation": "20+",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 12,
+  "fields": {
+    "name": "Chai Latte",
+    "ingredients": "Chai tea bags, hot water, milk, honey",
+    "recipe": "1. Steep chai tea bags in hot water for 5 minutes. 2. Heat milk and honey in a saucepan. 3. Mix chai tea with milk mixture. 4. Strain and serve.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "Cozy café chat",
+    "mood": "Sociable",
+    "iscoffee": false,
+    "istea": true,
+    "isalcoholic": false,
+    "isnonalcoholic": false,
+    "imagefile": "12",
+    "temperatureoflocation": "20+",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 13,
+  "fields": {
+    "name": "Lemonade",
+    "ingredients": "Lemons, sugar, water, ice cubes",
+    "recipe": "1. Squeeze lemons to extract juice. 2. Mix lemon juice with sugar and water. 3. Stir until sugar is dissolved. 4. Serve over ice.",
+    "timeofyear": "summer",
+    "timetodrink": "any",
+    "socialsituation": "Picnic in the park",
+    "mood": "Refreshing",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": false,
+    "isnonalcoholic": true,
+    "imagefile": "13",
+    "temperatureoflocation": "20+",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 14,
+  "fields": {
+    "name": "Espresso Martini",
+    "ingredients": "Vodka, coffee liqueur, espresso, sugar syrup",
+    "recipe": "1. Shake vodka, coffee liqueur, espresso, and sugar syrup in a cocktail shaker. 2. Strain and pour into a martini glass. 3. Serve chilled.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "alone",
+    "mood": "Hopeful",
+    "iscoffee": true,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "14",
+    "temperatureoflocation": "20+",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 15,
+  "fields": {
+    "name": "Frappuccino",
+    "ingredients": "Coffee, milk, sugar, ice cubes, whipped cream",
+    "recipe": "1. Brew coffee and let it cool. 2. Blend coffee with milk, sugar, and ice cubes until smooth. 3. Pour into a glass. 4. Top with whipped cream.",
+    "timeofyear": "summer",
+    "timetodrink": "any",
+    "socialsituation": "at the beach",
+    "mood": "Cheerful",
+    "iscoffee": true,
+    "istea": false,
+    "isalcoholic": false,
+    "isnonalcoholic": true,
+    "imagefile": "15",
+    "temperatureoflocation": "20+",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 16,
+  "fields": {
+    "name": "Hot Toddy",
+    "ingredients": "Whiskey, honey, lemon juice, hot water, cinnamon stick",
+    "recipe": "1. Mix whiskey, honey, lemon juice, and hot water. 2. Stir until honey is dissolved. 3. Garnish with a cinnamon stick.",
+    "timeofyear": "winter",
+    "timetodrink": "any",
+    "socialsituation": "Cozy drink night",
+    "mood": "Relaxed",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "16",
+    "temperatureoflocation": "10 to 20",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 17,
+  "fields": {
+    "name": "Mint Julep",
+    "ingredients": "Bourbon, sugar, water, mint leaves, crushed ice",
+    "recipe": "1. Muddle mint leaves with sugar and water. 2. Add bourbon and stir. 3. Fill glass with crushed ice. 4. Garnish with mint sprigs.",
+    "timeofyear": "summer",
+    "timetodrink": "any",
+    "socialsituation": "Outdoor party",
+    "mood": "Hopeful",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "17",
+    "temperatureoflocation": "20+",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 18,
+  "fields": {
+    "name": "Iced Matcha Latte",
+    "ingredients": "Matcha powder, hot water, milk, honey, ice cubes",
+    "recipe": "1. Whisk matcha powder with hot water until frothy. 2. Heat milk and honey in a saucepan. 3. Pour milk mixture over matcha and stir gently. 4. Pour over ice cubes.",
+    "timeofyear": "summer",
+    "timetodrink": "any",
+    "socialsituation": "Outdoor brunch",
+    "mood": "Refreshing",
+    "iscoffee": false,
+    "istea": true,
+    "isalcoholic": false,
+    "isnonalcoholic": false,
+    "imagefile": "18",
+    "temperatureoflocation": "20+",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 19,
+  "fields": {
+    "name": "Hot Herbal Tea",
+    "ingredients": "Herbal tea bags, hot water, honey",
+    "recipe": "1. Steep herbal tea bags in hot water for 5 minutes. 2. Add honey and stir until dissolved. 3. Strain and serve hot.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "Relaxing at home",
+    "mood": "Soothing",
+    "iscoffee": false,
+    "istea": true,
+    "isalcoholic": false,
+    "isnonalcoholic": false,
+    "imagefile": "19",
+    "temperatureoflocation": "20+",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 20,
+  "fields": {
+    "name": "Piña Colada Smoothie",
+    "ingredients": "Pineapple, coconut milk, banana, yogurt, honey, ice cubes",
+    "recipe": "1. Blend pineapple, coconut milk, banana, yogurt, honey, and ice cubes until smooth. 2. Serve chilled.",
+    "timeofyear": "summer",
+    "timetodrink": "any",
+    "socialsituation": "for breakfast",
+    "mood": "Energetic",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": false,
+    "isnonalcoholic": true,
+    "imagefile": "20",
+    "temperatureoflocation": "20+",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 21,
+  "fields": {
+    "name": "Eggnog",
+    "ingredients": "Eggs, milk, sugar, rum, nutmeg",
+    "recipe": "1. Separate egg yolks and whites. 2. Beat yolks with sugar. 3. Add milk and rum. 4. Beat egg whites separately until fluffy. 5. Fold egg whites into the mixture. 6. Sprinkle nutmeg on top.",
+    "timeofyear": "winter",
+    "timetodrink": "evening",
+    "socialsituation": "alone",
+    "mood": "Cheerful",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "21",
+    "temperatureoflocation": "0 to 10",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 22,
+  "fields": {
+    "name": "Ginger Beer",
+    "ingredients": "Ginger, sugar, water, lemon juice, yeast",
+    "recipe": "1. Grate ginger and simmer with sugar and water. 2. Let it cool. 3. Add lemon juice and yeast. 4. Let it ferment for a day. 5. Strain and serve chilled.",
+    "timeofyear": "spring",
+    "timetodrink": "afternoon",
+    "socialsituation": "alone",
+    "mood": "Calm",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": false,
+    "isnonalcoholic": true,
+    "imagefile": "22",
+    "temperatureoflocation": "10 to 20",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 23,
+  "fields": {
+    "name": "Iced Caramel Macchiato",
+    "ingredients": "Espresso, milk, caramel syrup, ice, whipped cream",
+    "recipe": "1. Brew espresso. 2. Add caramel syrup to the espresso. 3. Fill a glass with ice. 4. Pour milk over the ice. 5. Top with the caramel espresso. 6. Add whipped cream and drizzle caramel syrup on top.",
+    "timeofyear": "summer",
+    "timetodrink": "morning",
+    "socialsituation": "to go",
+    "mood": "Cheerful",
+    "iscoffee": true,
+    "istea": false,
+    "isalcoholic": false,
+    "isnonalcoholic": false,
+    "imagefile": "23",
+    "temperatureoflocation": "20+",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 24,
+  "fields": {
+    "name": "Cosmopolitan",
+    "ingredients": "Vodka, cranberry juice, lime juice, triple sec",
+    "recipe": "1. Combine vodka, cranberry juice, lime juice, and triple sec in a shaker. 2. Shake well. 3. Strain into a martini glass. 4. Garnish with a lime twist.",
+    "timeofyear": "summer",
+    "timetodrink": "evening",
+    "socialsituation": "in a party",
+    "mood": "Cheerful",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "24",
+    "temperatureoflocation": "20+",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 25,
+  "fields": {
+    "name": "White Russian",
+    "ingredients": "Vodka, coffee liqueur, cream, ice",
+    "recipe": "1. Fill a glass with ice. 2. Pour vodka and coffee liqueur over the ice. 3. Top with cream. 4. Stir gently.",
+    "timeofyear": "winter",
+    "timetodrink": "evening",
+    "socialsituation": "alone",
+    "mood": "Cozy",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "25",
+    "temperatureoflocation": "0 to 10",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 26,
+  "fields": {
+    "name": "Blueberry Lemonade",
+    "ingredients": "Blueberries, lemon juice, sugar, water, ice",
+    "recipe": "1. Blend blueberries, lemon juice, sugar, and water. 2. Strain the mixture. 3. Serve over ice.",
+    "timeofyear": "summer",
+    "timetodrink": "afternoon",
+    "socialsituation": "on the park",
+    "mood": "Cheerful",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": false,
+    "isnonalcoholic": true,
+    "imagefile": "26",
+    "temperatureoflocation": "20+",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 27,
+  "fields": {
+    "name": "Orange Creamsicle Smoothie",
+    "ingredients": "Orange juice, vanilla yogurt, milk, honey, ice",
+    "recipe": "1. Blend orange juice, vanilla yogurt, milk, honey, and ice until smooth. 2. Serve chilled.",
+    "timeofyear": "summer",
+    "timetodrink": "morning",
+    "socialsituation": "alone",
+    "mood": "Calm",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": false,
+    "isnonalcoholic": true,
+    "imagefile": "27",
+    "temperatureoflocation": "20+",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 28,
+  "fields": {
+    "name": "Hot Buttered Rum",
+    "ingredients": "Dark rum, butter, brown sugar, cinnamon, nutmeg, hot water",
+    "recipe": "1. Cream butter, brown sugar, cinnamon, and nutmeg. 2. Combine the creamed mixture with rum in a mug. 3. Fill the rest of the mug with hot water. 4. Stir until the butter is melted.",
+    "timeofyear": "winter",
+    "timetodrink": "evening",
+    "socialsituation": "alone",
+    "mood": "Cheerful",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "28",
+    "temperatureoflocation": "10 to 20",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 29,
+  "fields": {
+    "name": "Strawberry Margarita",
+    "ingredients": "Tequila, lime juice, strawberry puree, triple sec, ice",
+    "recipe": "1. Blend tequila, lime juice, strawberry puree, triple sec, and ice until smooth. 2. Pour into a glass. 3. Garnish with a lime slice and strawberry.",
+    "timeofyear": "summer",
+    "timetodrink": "evening",
+    "socialsituation": "in a party",
+    "mood": "Cheerful",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "29",
+    "temperatureoflocation": "20+",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 30,
+  "fields": {
+    "name": "Café Mocha",
+    "ingredients": "Espresso, chocolate syrup, milk, whipped cream",
+    "recipe": "1. Brew espresso. 2. Stir in chocolate syrup. 3. Heat milk and pour over the espresso mixture. 4. Top with whipped cream.",
+    "timeofyear": "winter",
+    "timetodrink": "morning",
+    "socialsituation": "alone",
+    "mood": "Cozy",
+    "iscoffee": true,
+    "istea": false,
+    "isalcoholic": false,
+    "isnonalcoholic": false,
+    "imagefile": "30",
+    "temperatureoflocation": "0 to 10",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 31,
+  "fields": {
+    "name": "Mango Margarita",
+    "ingredients": "Tequila, mango puree, lime juice, triple sec, ice",
+    "recipe": "1. Blend tequila, mango puree, lime juice, triple sec, and ice until smooth. 2. Pour into a glass. 3. Garnish with a lime slice and mango wedge.",
+    "timeofyear": "summer",
+    "timetodrink": "evening",
+    "socialsituation": "in a party",
+    "mood": "Cheerful",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "31",
+    "temperatureoflocation": "20+",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 32,
+  "fields": {
+    "name": "Earl Grey Tea",
+    "ingredients": "Earl Grey tea bags, hot water, milk, honey",
+    "recipe": "1. Steep Earl Grey tea bags in hot water. 2. Heat milk and pour into the tea. 3. Add honey to taste. 4. Stir well. 5. Serve hot.",
+    "timeofyear": "winter",
+    "timetodrink": "morning",
+    "socialsituation": "alone",
+    "mood": "Calm",
+    "iscoffee": false,
+    "istea": true,
+    "isalcoholic": false,
+    "isnonalcoholic": false,
+    "imagefile": "32",
+    "temperatureoflocation": "0 to 10",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 33,
+  "fields": {
+    "name": "Pomegranate Martini",
+    "ingredients": "Vodka, pomegranate juice, lime juice, simple syrup, ice",
+    "recipe": "1. Shake vodka, pomegranate juice, lime juice, and simple syrup with ice in a shaker. 2. Strain into a martini glass. 3. Garnish with a lime twist.",
+    "timeofyear": "winter",
+    "timetodrink": "any",
+    "socialsituation": "in a party",
+    "mood": "Cheerful",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "33",
+    "temperatureoflocation": "0 to 10",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 34,
+  "fields": {
+    "name": "Peach Bellini",
+    "ingredients": "Prosecco, peach puree, sugar",
+    "recipe": "1. Blend peach puree and sugar until smooth. 2. Pour into a champagne flute. 3. Top with prosecco. 4. Stir gently.",
+    "timeofyear": "summer",
+    "timetodrink": "morning",
+    "socialsituation": "in a party",
+    "mood": "Cheerful",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "34",
+    "temperatureoflocation": "20+",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 35,
+  "fields": {
+    "name": "Green Tea Lemonade",
+    "ingredients": "Green tea bags, hot water, lemon juice, sugar, ice",
+    "recipe": "1. Steep green tea bags in hot water. 2. Add lemon juice and sugar to taste. 3. Stir well. 4. Serve over ice.",
+    "timeofyear": "spring",
+    "timetodrink": "afternoon",
+    "socialsituation": "alone",
+    "mood": "Calm",
+    "iscoffee": false,
+    "istea": true,
+    "isalcoholic": false,
+    "isnonalcoholic": false,
+    "imagefile": "35",
+    "temperatureoflocation": "20+",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 36,
+  "fields": {
+    "name": "Mango Smoothie",
+    "ingredients": "Mango, yogurt, milk, honey, ice",
+    "recipe": "1. Blend mango, yogurt, milk, honey, and ice until smooth. 2. Serve chilled.",
+    "timeofyear": "summer",
+    "timetodrink": "afternoon",
+    "socialsituation": "alone",
+    "mood": "Calm",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": false,
+    "isnonalcoholic": true,
+    "imagefile": "36",
+    "temperatureoflocation": "20+",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 37,
+  "fields": {
+    "name": "Hot Spiced Cider",
+    "ingredients": "Apple cider, cinnamon stick, cloves, allspice, nutmeg",
+    "recipe": "1. Simmer apple cider with cinnamon stick, cloves, allspice, and nutmeg for 15 minutes. 2. Strain into mugs. 3. Serve hot.",
+    "timeofyear": "fall",
+    "timetodrink": "evening",
+    "socialsituation": "alone",
+    "mood": "Cozy",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": false,
+    "isnonalcoholic": true,
+    "imagefile": "37",
+    "temperatureoflocation": "0 to 10",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 38,
+  "fields": {
+    "name": "Vanilla Chai Latte",
+    "ingredients": "Chai tea bags, milk, water, vanilla extract, honey",
+    "recipe": "1. Steep chai tea bags in hot water. 2. Heat milk and pour into the tea. 3. Add vanilla extract and honey to taste. 4. Stir well. 5. Serve hot.",
+    "timeofyear": "fall",
+    "timetodrink": "morning",
+    "socialsituation": "alone",
+    "mood": "Cozy",
+    "iscoffee": false,
+    "istea": true,
+    "isalcoholic": false,
+    "isnonalcoholic": false,
+    "imagefile": "38",
+    "temperatureoflocation": "10 to 20",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 39,
+  "fields": {
+    "name": "Piña Colada",
+    "ingredients": "Rum, pineapple juice, coconut cream, ice",
+    "recipe": "1. Blend rum, pineapple juice, coconut cream, and ice until smooth. 2. Pour into a glass. 3. Garnish with a pineapple wedge and cherry.",
+    "timeofyear": "summer",
+    "timetodrink": "evening",
+    "socialsituation": "in a party",
+    "mood": "Cheerful",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "39",
+    "temperatureoflocation": "20+",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 40,
+  "fields": {
+    "name": "Irish Coffee",
+    "ingredients": "Irish whiskey, hot coffee, sugar, whipped cream",
+    "recipe": "1. Pour whiskey and sugar into a mug. 2. Add hot coffee and stir until sugar is dissolved. 3. Top with whipped cream.",
+    "timeofyear": "winter",
+    "timetodrink": "morning",
+    "socialsituation": "alone",
+    "mood": "Cozy",
+    "iscoffee": true,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "40",
+    "temperatureoflocation": "0 to 10",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 41,
+  "fields": {
+    "name": "Cucumber Mint Cooler",
+    "ingredients": "Cucumber, mint leaves, lime juice, sugar, soda water",
+    "recipe": "1. Muddle cucumber, mint leaves, lime juice, and sugar. 2. Strain the mixture into a glass. 3. Top with soda water. 4. Stir gently.",
+    "timeofyear": "summer",
+    "timetodrink": "afternoon",
+    "socialsituation": "on the park",
+    "mood": "Calm",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": false,
+    "isnonalcoholic": true,
+    "imagefile": "41",
+    "temperatureoflocation": "20+",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 42,
+  "fields": {
+    "name": "Old Fashioned",
+    "ingredients": "Bourbon, sugar cube, bitters, orange peel, ice",
+    "recipe": "1. Place a sugar cube in a glass. 2. Add a few dashes of bitters and muddle. 3. Add ice and pour bourbon. 4. Stir gently. 5. Garnish with an orange peel.",
+    "timeofyear": "fall",
+    "timetodrink": "evening",
+    "socialsituation": "alone",
+    "mood": "Reflective",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "42",
+    "temperatureoflocation": "10 to 20",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 43,
+  "fields": {
+    "name": "Watermelon Slush",
+    "ingredients": "Watermelon, lime juice, sugar, ice",
+    "recipe": "1. Blend watermelon, lime juice, sugar, and ice until smooth. 2. Serve chilled.",
+    "timeofyear": "summer",
+    "timetodrink": "afternoon",
+    "socialsituation": "on the park",
+    "mood": "Cheerful",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": false,
+    "isnonalcoholic": true,
+    "imagefile": "43",
+    "temperatureoflocation": "20+",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 44,
+  "fields": {
+    "name": "Moscow Mule",
+    "ingredients": "Vodka, ginger beer, lime juice, ice, mint leaves",
+    "recipe": "1. Fill a copper mug with ice. 2. Pour vodka and lime juice over the ice. 3. Top with ginger beer. 4. Stir gently. 5. Garnish with mint leaves.",
+    "timeofyear": "summer",
+    "timetodrink": "evening",
+    "socialsituation": "in a party",
+    "mood": "Cheerful",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "44",
+    "temperatureoflocation": "20+",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 45,
+  "fields": {
+    "name": "Arnold Palmer",
+    "ingredients": "Iced tea, lemonade, sugar, ice",
+    "recipe": "1. Mix equal parts iced tea and lemonade. 2. Add sugar to taste. 3. Serve over ice.",
+    "timeofyear": "summer",
+    "timetodrink": "afternoon",
+    "socialsituation": "on the park",
+    "mood": "Calm",
+    "iscoffee": false,
+    "istea": true,
+    "isalcoholic": false,
+    "isnonalcoholic": false,
+    "imagefile": "45",
+    "temperatureoflocation": "20+",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 46,
+  "fields": {
+    "name": "Pumpkin Spice Latte",
+    "ingredients": "Espresso, milk, pumpkin puree, sugar, pumpkin pie spice",
+    "recipe": "1. Brew espresso. 2. Heat milk, pumpkin puree, sugar, and pumpkin pie spice on the stove. 3. Combine espresso and milk mixture. 4. Top with whipped cream and sprinkle pumpkin pie spice.",
+    "timeofyear": "fall",
+    "timetodrink": "morning",
+    "socialsituation": "alone",
+    "mood": "Hopeful",
+    "iscoffee": true,
+    "istea": false,
+    "isalcoholic": false,
+    "isnonalcoholic": false,
+    "imagefile": "46",
+    "temperatureoflocation": "10 to 20",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 47,
+  "fields": {
+    "name": "Strawberry Daiquiri",
+    "ingredients": "Rum, lime juice, simple syrup, strawberries, ice",
+    "recipe": "1. Blend rum, lime juice, simple syrup, strawberries, and ice until smooth. 2. Pour into a glass. 3. Garnish with a strawberry.",
+    "timeofyear": "summer",
+    "timetodrink": "evening",
+    "socialsituation": "in a party",
+    "mood": "Cheerful",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "47",
+    "temperatureoflocation": "20+",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 48,
+  "fields": {
+    "name": "Chamomile Tea",
+    "ingredients": "Chamomile tea bags, hot water, honey, lemon",
+    "recipe": "1. Steep chamomile tea bags in hot water. 2. Add honey and lemon to taste. 3. Stir well. 4. Serve hot.",
+    "timeofyear": "winter",
+    "timetodrink": "evening",
+    "socialsituation": "alone",
+    "mood": "Calm",
+    "iscoffee": false,
+    "istea": true,
+    "isalcoholic": false,
+    "isnonalcoholic": false,
+    "imagefile": "48",
+    "temperatureoflocation": "0 to 10",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 49,
+  "fields": {
+    "name": "Mimosa",
+    "ingredients": "Champagne, orange juice",
+    "recipe": "1. Pour equal parts champagne and orange juice into a champagne flute. 2. Stir gently.",
+    "timeofyear": "spring",
+    "timetodrink": "morning",
+    "socialsituation": "alone",
+    "mood": "Cheerful",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "49",
+    "temperatureoflocation": "10 to 20",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 50,
+  "fields": {
+    "name": "Lemon Drop Martini",
+    "ingredients": "Vodka, lemon juice, simple syrup, sugar",
+    "recipe": "1. Rim the glass with sugar. 2. Shake vodka, lemon juice, and simple syrup with ice in a shaker. 3. Strain into the glass. 4. Garnish with a lemon twist.",
+    "timeofyear": "summer",
+    "timetodrink": "evening",
+    "socialsituation": "in a party",
+    "mood": "Cheerful",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "50",
+    "temperatureoflocation": "20+",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 51,
+  "fields": {
+    "name": "Raspberry Lemonade",
+    "ingredients": "Raspberries, lemon juice, sugar, water, ice",
+    "recipe": "1. Blend raspberries, lemon juice, sugar, and water. 2. Strain the mixture. 3. Serve over ice.",
+    "timeofyear": "summer",
+    "timetodrink": "afternoon",
+    "socialsituation": "on the park",
+    "mood": "Cheerful",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": false,
+    "isnonalcoholic": true,
+    "imagefile": "51",
+    "temperatureoflocation": "20+",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 52,
+  "fields": {
+    "name": "Hot Apple Cider",
+    "ingredients": "Apple cider, cinnamon stick, cloves, nutmeg, orange peel",
+    "recipe": "1. Simmer apple cider with cinnamon stick, cloves, nutmeg, and orange peel for 15 minutes. 2. Strain into mugs. 3. Serve hot.",
+    "timeofyear": "fall",
+    "timetodrink": "evening",
+    "socialsituation": "alone",
+    "mood": "Cozy",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": false,
+    "isnonalcoholic": true,
+    "imagefile": "52",
+    "temperatureoflocation": "0 to 10",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 53,
+  "fields": {
+    "name": "Mai Tai",
+    "ingredients": "Light rum, dark rum, orange curaçao, lime juice, orgeat syrup",
+    "recipe": "1. Shake light rum, orange curaçao, lime juice, and orgeat syrup with ice in a shaker. 2. Strain into a glass filled with crushed ice. 3. Float dark rum on top. 4. Garnish with a lime wedge and cherry.",
+    "timeofyear": "summer",
+    "timetodrink": "afternoon",
+    "socialsituation": "on the park",
+    "mood": "Cheerful",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": false,
+    "isnonalcoholic": true,
+    "imagefile": "53",
+    "temperatureoflocation": "20+",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 54,
+  "fields": {
+    "name": "Caramel Macchiato",
+    "ingredients": "Espresso, milk, caramel syrup, vanilla syrup",
+    "recipe": "1. Brew espresso. 2. Heat milk and pour into the espresso. 3. Add caramel syrup and vanilla syrup to taste. 4. Stir well.",
+    "timeofyear": "summer",
+    "timetodrink": "afternoon",
+    "socialsituation": "with friends",
+    "mood": "Cozy",
+    "iscoffee": true,
+    "istea": false,
+    "isalcoholic": false,
+    "isnonalcoholic": false,
+    "imagefile": "54",
+    "temperatureoflocation": "20+",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 55,
+  "fields": {
+    "name": "Mocha Frappuccino",
+    "ingredients": "Espresso, milk, chocolate syrup, sugar, ice, whipped cream",
+    "recipe": "1. Brew espresso and let it cool. 2. Blend espresso, milk, chocolate syrup, sugar, and ice until smooth. 3. Pour into a glass. 4. Top with whipped cream.",
+    "timeofyear": "summer",
+    "timetodrink": "afternoon",
+    "socialsituation": "on the park",
+    "mood": "Refreshing",
+    "iscoffee": true,
+    "istea": false,
+    "isalcoholic": false,
+    "isnonalcoholic": false,
+    "imagefile": "55",
+    "temperatureoflocation": "0 to 10",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 56,
+  "fields": {
+    "name": "Irish Cream Coffee",
+    "ingredients": "Coffee, Irish cream liqueur, whipped cream",
+    "recipe": "1. Brew coffee. 2. Pour coffee into a glass. 3. Add Irish cream liqueur to taste. 4. Top with whipped cream.",
+    "timeofyear": "winter",
+    "timetodrink": "morning",
+    "socialsituation": "alone",
+    "mood": "Cozy",
+    "iscoffee": true,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "56",
+    "temperatureoflocation": "0 to 10",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 57,
+  "fields": {
+    "name": "Vanilla Latte",
+    "ingredients": "Espresso, milk, vanilla syrup",
+    "recipe": "1. Brew espresso. 2. Heat milk and pour into the espresso. 3. Add vanilla syrup to taste. 4. Stir well.",
+    "timeofyear": "fall",
+    "timetodrink": "afternoon",
+    "socialsituation": "on the park",
+    "mood": "Comforting",
+    "iscoffee": true,
+    "istea": false,
+    "isalcoholic": false,
+    "isnonalcoholic": false,
+    "imagefile": "57",
+    "temperatureoflocation": "-15 to 0",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 58,
+  "fields": {
+    "name": "Cappuccino",
+    "ingredients": "Espresso, milk, foam",
+    "recipe": "1. Brew espresso. 2. Heat milk and froth it until creamy. 3. Pour the espresso into a cup. 4. Top with milk foam.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "on the park",
+    "mood": "Classic",
+    "iscoffee": true,
+    "istea": false,
+    "isalcoholic": false,
+    "isnonalcoholic": false,
+    "imagefile": "58",
+    "temperatureoflocation": "0 to 10",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 59,
+  "fields": {
+    "name": "Appletini",
+    "ingredients": "Vodka, apple schnapps, lemon juice, simple syrup",
+    "recipe": "1. Fill a shaker with ice. 2. Add vodka, apple schnapps, lemon juice, and simple syrup. 3. Shake well. 4. Strain into a chilled martini glass. 5. Garnish with an apple slice.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "in a party",
+    "mood": "Cheerful",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "59",
+    "temperatureoflocation": "20+",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 60,
+  "fields": {
+    "name": "Black Russian",
+    "ingredients": "Vodka, coffee liqueur",
+    "recipe": "1. Fill a glass with ice. 2. Pour vodka and coffee liqueur over the ice. 3. Stir gently.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "alone",
+    "mood": "Reflective",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "60",
+    "temperatureoflocation": "10 to 20",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 61,
+  "fields": {
+    "name": "Bloody Mary",
+    "ingredients": "Vodka, tomato juice, lemon juice, Worcestershire sauce, hot sauce, salt, pepper, celery stalk",
+    "recipe": "1. Rim a glass with salt and pepper. 2. Fill the glass with ice. 3. Add vodka, tomato juice, lemon juice, Worcestershire sauce, hot sauce, salt, and pepper. 4. Stir well. 5. Garnish with a celery stalk.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "with friends",
+    "mood": "Sociable",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "61",
+    "temperatureoflocation": "10 to 20",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 62,
+  "fields": {
+    "name": "Blue Lagoon",
+    "ingredients": "Vodka, blue curaçao, lemonade",
+    "recipe": "1. Fill a glass with ice. 2. Pour vodka, blue curaçao, and lemonade over the ice. 3. Stir gently.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "outdoor party",
+    "mood": "Cheerful",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "62",
+    "temperatureoflocation": "10 to 20",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 63,
+  "fields": {
+    "name": "Cucumber Vodka Cooler",
+    "ingredients": "Vodka, cucumber, lime juice, sugar, soda water",
+    "recipe": "1. Muddle cucumber slices and sugar in a glass. 2. Fill the glass with ice. 3. Add vodka and lime juice. 4. Top with soda water. 5. Stir gently.",
+    "timeofyear": "summer",
+    "timetodrink": "any",
+    "socialsituation": "picnic in the park",
+    "mood": "Refreshing",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "63",
+    "temperatureoflocation": "20+",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 64,
+  "fields": {
+    "name": "London Fog",
+    "ingredients": "Earl Grey tea bags, hot water, milk, vanilla extract, honey",
+    "recipe": "1. Steep the Earl Grey tea bags in hot water for a few minutes. 2. Remove the tea bags. 3. Stir in milk, vanilla extract, and honey. 4. Let it cool. 5. Serve hot.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "cozy café chat",
+    "mood": "Cozy",
+    "iscoffee": false,
+    "istea": true,
+    "isalcoholic": false,
+    "isnonalcoholic": false,
+    "imagefile": "64",
+    "temperatureoflocation": "-15 to 0",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 65,
+  "fields": {
+    "name": "Kamikaze",
+    "ingredients": "Vodka, triple sec, lime juice",
+    "recipe": "1. Fill a shaker with ice. 2. Add vodka, triple sec, and lime juice. 3. Shake well. 4. Strain into a shot glass or a chilled martini glass.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "outdoor party",
+    "mood": "Energetic",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "65",
+    "temperatureoflocation": "10 to 20",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 66,
+  "fields": {
+    "name": "Orange Creamsicle Vodka Cocktail",
+    "ingredients": "Vodka, orange juice, cream, simple syrup, orange slice",
+    "recipe": "1. Fill a shaker with ice. 2. Add vodka, orange juice, cream, and simple syrup. 3. Shake well. 4. Strain into a glass. 5. Garnish with an orange slice.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "relaxing at home",
+    "mood": "Cozy",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "66",
+    "temperatureoflocation": "10 to 20",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 67,
+  "fields": {
+    "name": "Pineapple Vodka Lemonade",
+    "ingredients": "Vodka, pineapple juice, lemon juice, simple syrup",
+    "recipe": "1. Fill a glass with ice. 2. Pour vodka, pineapple juice, lemon juice, and simple syrup over the ice. 3. Stir gently.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "outdoor brunch",
+    "mood": "Cheerful",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "67",
+    "temperatureoflocation": "10 to 20",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 68,
+  "fields": {
+    "name": "Sea Breeze",
+    "ingredients": "Vodka, cranberry juice, grapefruit juice, lime wedge",
+    "recipe": "1. Fill a glass with ice. 2. Pour vodka, cranberry juice, and grapefruit juice over the ice. 3. Stir gently. 4. Garnish with a lime wedge.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "outdoor party",
+    "mood": "Cheerful",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "68",
+    "temperatureoflocation": "20+",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 69,
+  "fields": {
+    "name": "Screwdriver",
+    "ingredients": "Vodka, orange juice",
+    "recipe": "1. Fill a glass with ice. 2. Pour vodka and orange juice over the ice. 3. Stir gently.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "relaxing at home",
+    "mood": "Calm",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "69",
+    "temperatureoflocation": "10 to 20",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 70,
+  "fields": {
+    "name": "Sex on the Beach",
+    "ingredients": "Vodka, peach schnapps, cranberry juice, orange juice, grenadine",
+    "recipe": "1. Fill a glass with ice. 2. Pour vodka, peach schnapps, cranberry juice, and orange juice over the ice. 3. Add a splash of grenadine. 4. Stir gently.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "outdoor brunch",
+    "mood": "Cheerful",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "70",
+    "temperatureoflocation": "20+",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 71,
+  "fields": {
+    "name": "Strawberry Vodka Lemonade",
+    "ingredients": "Vodka, strawberry puree, lemonade",
+    "recipe": "1. Fill a glass with ice. 2. Pour vodka, strawberry puree, and lemonade over the ice. 3. Stir gently.",
+    "timeofyear": "summer",
+    "timetodrink": "any",
+    "socialsituation": "picnic in the park",
+    "mood": "Cheerful",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "71",
+    "temperatureoflocation": "20+",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 72,
+  "fields": {
+    "name": "Vodka Gimlet",
+    "ingredients": "Vodka, lime juice, simple syrup",
+    "recipe": "1. Fill a shaker with ice. 2. Add vodka, lime juice, and simple syrup. 3. Shake well. 4. Strain into a chilled martini glass. 5. Garnish with a lime twist.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "cozy café chat",
+    "mood": "Reflective",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "72",
+    "temperatureoflocation": "10 to 20",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 73,
+  "fields": {
+    "name": "Vodka Martini",
+    "ingredients": "Vodka, dry vermouth, lemon twist or olive",
+    "recipe": "1. Fill a mixing glass with ice. 2. Add vodka and dry vermouth. 3. Stir well. 4. Strain into a chilled martini glass. 5. Garnish with a lemon twist or olive.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "cozy drink night",
+    "mood": "Energetic",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "73",
+    "temperatureoflocation": "20+",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 74,
+  "fields": {
+    "name": "Blood and Sand",
+    "ingredients": "Scotch whisky, sweet vermouth, cherry liqueur, orange juice",
+    "recipe": "1. Fill a shaker with ice. 2. Add scotch whisky, sweet vermouth, cherry liqueur, and orange juice. 3. Shake well. 4. Strain into a glass. 5. Garnish with an orange twist.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "outdoor party",
+    "mood": "Sociable",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "74",
+    "temperatureoflocation": "0 to 10",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 75,
+  "fields": {
+    "name": "Boulevardier",
+    "ingredients": "Bourbon, sweet vermouth, Campari, orange twist",
+    "recipe": "1. Fill a mixing glass with ice. 2. Add bourbon, sweet vermouth, and Campari. 3. Stir well. 4. Strain into a glass. 5. Garnish with an orange twist.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "cozy night at home",
+    "mood": "Cozy",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "75",
+    "temperatureoflocation": "0 to 10",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 76,
+  "fields": {
+    "name": "Godfather",
+    "ingredients": "Scotch whisky, amaretto",
+    "recipe": "1. Fill a glass with ice. 2. Pour scotch whisky and amaretto over the ice. 3. Stir gently.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "relaxing at home",
+    "mood": "Calm",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "76",
+    "temperatureoflocation": "0 to 10",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 77,
+  "fields": {
+    "name": "Highball",
+    "ingredients": "Whisky, soda water",
+    "recipe": "1. Fill a glass with ice. 2. Pour whisky over the ice. 3. Top with soda water. 4. Stir gently.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "outdoor brunch",
+    "mood": "Sociable",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "77",
+    "temperatureoflocation": "10 to 20",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 78,
+  "fields": {
+    "name": "Manhattan",
+    "ingredients": "Rye whisky, sweet vermouth, Angostura bitters, cherry",
+    "recipe": "1. Fill a mixing glass with ice. 2. Add rye whisky, sweet vermouth, and Angostura bitters. 3. Stir well. 4. Strain into a chilled cocktail glass. 5. Garnish with a cherry.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "cozy café chat",
+    "mood": "Reflective",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "78",
+    "temperatureoflocation": "10 to 20",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 79,
+  "fields": {
+    "name": "Penicillin",
+    "ingredients": "Scotch whisky, lemon juice, honey syrup, ginger syrup",
+    "recipe": "1. Fill a shaker with ice. 2. Add scotch whisky, lemon juice, honey syrup, and ginger syrup. 3. Shake well. 4. Strain into a glass filled with ice. 5. Garnish with a lemon twist.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "cozy drink night",
+    "mood": "Cozy",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "79",
+    "temperatureoflocation": "0 to 10",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 80,
+  "fields": {
+    "name": "Rusty Nail",
+    "ingredients": "Scotch whisky, Drambuie",
+    "recipe": "1. Fill a glass with ice. 2. Pour scotch whisky and Drambuie over the ice. 3. Stir gently.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "cozy night at home",
+    "mood": "Cozy",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "80",
+    "temperatureoflocation": "0 to 10",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 81,
+  "fields": {
+    "name": "Sazerac",
+    "ingredients": "Rye whisky, sugar cube, Peychaud bitters, absinthe, lemon peel",
+    "recipe": "1. Rinse a chilled glass with absinthe. 2. Muddle a sugar cube with Peychaud bitters in another glass. 3. Add rye whisky and stir well. 4. Strain into the absinthe-rinsed glass. 5. Garnish with a lemon peel.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "cozy café chat",
+    "mood": "Reflective",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "81",
+    "temperatureoflocation": "0 to 10",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 82,
+  "fields": {
+    "name": "Whisky Buck",
+    "ingredients": "Whisky, ginger ale, lime juice",
+    "recipe": "1. Fill a glass with ice. 2. Pour whisky and lime juice over the ice. 3. Top with ginger ale. 4. Stir gently.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "outdoor party",
+    "mood": "Sociable",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "82",
+    "temperatureoflocation": "-15 to 0",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 83,
+  "fields": {
+    "name": "Whisky Cobbler",
+    "ingredients": "Whisky, sugar, orange, lemon, pineapple chunks, mint sprigs",
+    "recipe": "1. Muddle sugar, orange, lemon, pineapple chunks, and mint in a glass. 2. Fill the glass with crushed ice. 3. Pour whisky over the ice. 4. Stir gently. 5. Garnish with mint sprigs.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "picnic in the park",
+    "mood": "Refreshing",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "83",
+    "temperatureoflocation": "-15 to 0",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 84,
+  "fields": {
+    "name": "Whisky Collins",
+    "ingredients": "Whisky, lemon juice, simple syrup, club soda",
+    "recipe": "1. Fill a glass with ice. 2. Pour whisky, lemon juice, and simple syrup over the ice. 3. Top with club soda. 4. Stir gently.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "outdoor brunch",
+    "mood": "Sociable",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "84",
+    "temperatureoflocation": "10 to 20",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 85,
+  "fields": {
+    "name": "Whisky Ginger",
+    "ingredients": "Whisky, ginger ale, lime juice",
+    "recipe": "1. Fill a glass with ice. 2. Pour whisky and lime juice over the ice. 3. Top with ginger ale. 4. Stir gently.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "outdoor party",
+    "mood": "Sociable",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "85",
+    "temperatureoflocation": "20+",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 86,
+  "fields": {
+    "name": "Whisky Smash",
+    "ingredients": "Whisky, lemon juice, mint leaves, simple syrup",
+    "recipe": "1. Muddle mint leaves and simple syrup in a glass. 2. Fill the glass with ice. 3. Add whisky and lemon juice. 4. Stir well. 5. Garnish with a mint sprig.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "cozy night at home",
+    "mood": "Cozy",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "86",
+    "temperatureoflocation": "10 to 20",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 87,
+  "fields": {
+    "name": "Whisky Sour",
+    "ingredients": "Whisky, lemon juice, simple syrup, egg white",
+    "recipe": "1. Fill a shaker with ice. 2. Add whisky, lemon juice, simple syrup, and egg white. 3. Shake vigorously. 4. Strain into a glass. 5. Garnish with a cherry and lemon slice.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "relaxing at home",
+    "mood": "Calm",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "87",
+    "temperatureoflocation": "20+",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 88,
+  "fields": {
+    "name": "Bahama Mama",
+    "ingredients": "Rum, coconut rum, pineapple juice, orange juice, grenadine, lime juice",
+    "recipe": "1. Fill a glass with ice. 2. Pour rum, coconut rum, pineapple juice, orange juice, grenadine, and lime juice over the ice. 3. Stir gently.",
+    "timeofyear": "summer",
+    "timetodrink": "any",
+    "socialsituation": "beach",
+    "mood": "Cheerful",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "88",
+    "temperatureoflocation": "20+",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 89,
+  "fields": {
+    "name": "Cuba Libre",
+    "ingredients": "Rum, cola, lime juice",
+    "recipe": "1. Fill a glass with ice. 2. Pour rum and cola over the ice. 3. Add lime juice. 4. Stir gently.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "party",
+    "mood": "Sociable",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "89",
+    "temperatureoflocation": "10 to 20",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 90,
+  "fields": {
+    "name": "Daiquiri",
+    "ingredients": "Rum, lime juice, simple syrup",
+    "recipe": "1. Fill a shaker with ice. 2. Add rum, lime juice, and simple syrup. 3. Shake well. 4. Strain into a glass. 5. Garnish with a lime wedge.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "outdoor party",
+    "mood": "Cheerful",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "90",
+    "temperatureoflocation": "10 to 20",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 91,
+  "fields": {
+    "name": "Dark and Stormy",
+    "ingredients": "Dark rum, ginger beer, lime juice",
+    "recipe": "1. Fill a glass with ice. 2. Pour dark rum and ginger beer over the ice. 3. Add lime juice. 4. Stir gently.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "outdoor party",
+    "mood": "Energetic",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "91",
+    "temperatureoflocation": "20+",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 92,
+  "fields": {
+    "name": "Hurricane",
+    "ingredients": "Light rum, dark rum, passion fruit syrup, lemon juice, grenadine, orange juice",
+    "recipe": "1. Fill a glass with ice. 2. Pour light rum, dark rum, passion fruit syrup, lemon juice, grenadine, and orange juice over the ice. 3. Stir gently. 4. Garnish with an orange slice and cherry.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "party",
+    "mood": "Sociable",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "92",
+    "temperatureoflocation": "20+",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 93,
+  "fields": {
+    "name": "Planter Punch",
+    "ingredients": "Rum, orange juice, pineapple juice, grenadine, lime juice, simple syrup, Angostura bitters",
+    "recipe": "1. Fill a glass with ice. 2. Pour rum, orange juice, pineapple juice, grenadine, lime juice, simple syrup, and Angostura bitters over the ice. 3. Stir gently. 4. Garnish with a lime wedge and cherry.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "outdoor brunch",
+    "mood": "Cheerful",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "93",
+    "temperatureoflocation": "20+",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 94,
+  "fields": {
+    "name": "Rum Punch",
+    "ingredients": "Rum, orange juice, pineapple juice, lime juice, grenadine, Angostura bitters, nutmeg",
+    "recipe": "1. Fill a glass with ice. 2. Pour rum, orange juice, pineapple juice, lime juice, grenadine, Angostura bitters, and nutmeg over the ice. 3. Stir gently. 4. Garnish with an orange slice and cherry.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "outdoor party",
+    "mood": "Cheerful",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "94",
+    "temperatureoflocation": "20+",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 95,
+  "fields": {
+    "name": "Rum Runner",
+    "ingredients": "Light rum, dark rum, blackberry liqueur, banana liqueur, orange juice, pineapple juice, grenadine",
+    "recipe": "1. Fill a glass with ice. 2. Pour light rum, dark rum, blackberry liqueur, banana liqueur, orange juice, pineapple juice, and grenadine over the ice. 3. Stir gently. 4. Garnish with an orange slice and cherry.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "party",
+    "mood": "Energetic",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "95",
+    "temperatureoflocation": "10 to 20",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 96,
+  "fields": {
+    "name": "Rum Sour",
+    "ingredients": "Rum, lemon juice, simple syrup, egg white",
+    "recipe": "1. Fill a shaker with ice. 2. Add rum, lemon juice, simple syrup, and egg white. 3. Shake vigorously. 4. Strain into a glass. 5. Garnish with a cherry and lemon slice.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "relaxing at home",
+    "mood": "Calm",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "96",
+    "temperatureoflocation": "10 to 20",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 97,
+  "fields": {
+    "name": "Aviation",
+    "ingredients": "Gin, maraschino liqueur, crème de violette, lemon juice",
+    "recipe": "1. Fill a shaker with ice. 2. Add gin, maraschino liqueur, crème de violette, and lemon juice. 3. Shake well. 4. Strain into a glass. 5. Garnish with a cherry.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "cozy café chat",
+    "mood": "Romantic",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "97",
+    "temperatureoflocation": "10 to 20",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 98,
+  "fields": {
+    "name": "Bee Knees",
+    "ingredients": "Gin, lemon juice, honey syrup",
+    "recipe": "1. Fill a shaker with ice. 2. Add gin, lemon juice, and honey syrup. 3. Shake well. 4. Strain into a glass. 5. Garnish with a lemon twist.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "cozy night at home",
+    "mood": "Calm",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "98",
+    "temperatureoflocation": "20+",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 99,
+  "fields": {
+    "name": "Bramble",
+    "ingredients": "Gin, blackberry liqueur, lemon juice, simple syrup",
+    "recipe": "1. Fill a glass with crushed ice. 2. Pour gin, blackberry liqueur, lemon juice, and simple syrup over the ice. 3. Stir gently. 4. Garnish with blackberries and a lemon slice.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "outdoor brunch",
+    "mood": "Cheerful",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "99",
+    "temperatureoflocation": "10 to 20",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 100,
+  "fields": {
+    "name": "Hanky Panky",
+    "ingredients": "Gin, sweet vermouth, Fernet-Branca",
+    "recipe": "1. Fill a mixing glass with ice. 2. Add gin, sweet vermouth, and Fernet-Branca. 3. Stir well. 4. Strain into a glass. 5. Garnish with an orange peel.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "cozy drink night",
+    "mood": "Cozy",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "100",
+    "temperatureoflocation": "-15 to 0",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 101,
+  "fields": {
+    "name": "Clover Club",
+    "ingredients": "Gin, raspberry syrup, lemon juice, egg white",
+    "recipe": "1. Fill a shaker with ice. 2. Add gin, raspberry syrup, lemon juice, and egg white. 3. Shake vigorously. 4. Strain into a glass. 5. Garnish with raspberries.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "outdoor party",
+    "mood": "Sociable",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "101",
+    "temperatureoflocation": "20+",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 102,
+  "fields": {
+    "name": "Corpse Reviver No. 2",
+    "ingredients": "Gin, Lillet Blanc, lemon juice, absinthe",
+    "recipe": "1. Fill a shaker with ice. 2. Add gin, Lillet Blanc, lemon juice, and absinthe. 3. Shake well. 4. Strain into a glass. 5. Garnish with a lemon twist.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "cozy drink night",
+    "mood": "Refreshing",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "102",
+    "temperatureoflocation": "20+",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 103,
+  "fields": {
+    "name": "French 75",
+    "ingredients": "Gin, lemon juice, simple syrup, champagne",
+    "recipe": "1. Fill a shaker with ice. 2. Add gin, lemon juice, and simple syrup. 3. Shake well. 4. Strain into a glass. 5. Top with champagne. 6. Garnish with a lemon twist.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "party",
+    "mood": "Sociable",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "103",
+    "temperatureoflocation": "0 to 10",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 104,
+  "fields": {
+    "name": "Moroccan Mint Tea",
+    "ingredients": "Green tea bags, fresh mint leaves, hot water, sugar",
+    "recipe": "1. Steep the green tea bags and fresh mint leaves in hot water for a few minutes. 2. Remove the tea bags and mint leaves. 3. Stir in sugar. 4. Let it cool. 5. Serve hot or over ice.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "picnic in the park",
+    "mood": "Refreshing",
+    "iscoffee": false,
+    "istea": true,
+    "isalcoholic": false,
+    "isnonalcoholic": false,
+    "imagefile": "104",
+    "temperatureoflocation": "5 to 11",
+    "timeofday": "0 to 10"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 105,
+  "fields": {
+    "name": "Gin Fizz",
+    "ingredients": "Gin, lemon juice, simple syrup, soda water",
+    "recipe": "1. Fill a shaker with ice. 2. Add gin, lemon juice, and simple syrup. 3. Shake well. 4. Strain into a glass. 5. Top with soda water. 6. Stir gently.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "outdoor party",
+    "mood": "Energetic",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "105",
+    "temperatureoflocation": "0 to 10",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 106,
+  "fields": {
+    "name": "Gin Smash",
+    "ingredients": "Gin, lemon juice, simple syrup, mint leaves",
+    "recipe": "1. Muddle mint leaves and simple syrup in a glass. 2. Fill the glass with ice. 3. Add gin and lemon juice. 4. Stir well. 5. Garnish with mint sprigs.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "picnic in the park",
+    "mood": "Refreshing",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "106",
+    "temperatureoflocation": "10 to 20",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 107,
+  "fields": {
+    "name": "Gin Sour",
+    "ingredients": "Gin, lemon juice, simple syrup, egg white",
+    "recipe": "1. Fill a shaker with ice. 2. Add gin, lemon juice, simple syrup, and egg white. 3. Shake vigorously. 4. Strain into a glass. 5. Garnish with a cherry and lemon slice.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "relaxing at home",
+    "mood": "Calm",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "107",
+    "temperatureoflocation": "20+",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 108,
+  "fields": {
+    "name": "Gimlet",
+    "ingredients": "Gin, lime juice, simple syrup",
+    "recipe": "1. Fill a shaker with ice. 2. Add gin, lime juice, and simple syrup. 3. Shake well. 4. Strain into a glass. 5. Garnish with a lime wheel.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "cozy café chat",
+    "mood": "Reflective",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "108",
+    "temperatureoflocation": "10 to 20",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 109,
+  "fields": {
+    "name": "Ginger Tea",
+    "ingredients": "Ginger tea bag, honey, lemon juice",
+    "recipe": "1. Steep the ginger tea bag in hot water for a few minutes. 2. Remove the tea bag. 3. Stir in honey and lemon juice. 4. Let it cool. 5. Serve over ice.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "relaxing at home",
+    "mood": "Calm",
+    "iscoffee": false,
+    "istea": true,
+    "isalcoholic": false,
+    "isnonalcoholic": false,
+    "imagefile": "109",
+    "temperatureoflocation": "-15 to 0",
+    "timeofday": "5 to 11"
+  }
+},
+{
+  "model": "drink_service.drink",
+  "pk": 110,
+  "fields": {
+    "name": "Vodka Collins",
+    "ingredients": "Vodka, lemon juice, simple syrup, club soda",
+    "recipe": "1. Fill a glass with ice. 2. Pour vodka, lemon juice, and simple syrup over the ice. 3. Top with club soda. 4. Stir gently.",
+    "timeofyear": "All year",
+    "timetodrink": "any",
+    "socialsituation": "outdoor brunch",
+    "mood": "Sociable",
+    "iscoffee": false,
+    "istea": false,
+    "isalcoholic": true,
+    "isnonalcoholic": false,
+    "imagefile": "110",
+    "temperatureoflocation": "10 to 20",
+    "timeofday": "12 to 23"
+  }
+},
+{
+  "model": "Educational.educational",
+  "pk": 2,
+  "fields": {
+    "title": "The History of Coffee: From Ancient Origins to Modern-day Culture",
+    "description": "<b>Coffee</b>, one of the world's most beloved beverages, has a rich and captivating history that spans centuries and continents. From its ancient origins to the modern-day coffee culture we know today, this stimulating drink has left an indelible mark on society and shaped the way people connect, work, and indulge in a daily ritual.\r\n<p>The story of coffee begins in Ethiopia, where legend has it that a goat herder named Kaldi discovered the power of coffee in the 9th century. According to the tale, Kaldi noticed that his goats became energized and restless after eating the red berries from a particular tree. Curiosity piqued, he decided to try the berries himself and experienced a similar invigorating effect. Word of this newfound discovery quickly spread, and the cultivation of coffee began.</p>\r\nCoffee's popularity soon reached the Arabian Peninsula, where it gained traction as a prized beverage. By the 15th century, coffee was being grown and consumed in the port city of Mocha (now known as Al Mukha) in Yemen. The vibrant trade routes of the time enabled the spread of coffee across the Middle East and into North Africa, where it became a cherished part of cultural and social gatherings.\r\n<p>As coffee made its way to Europe, it ignited a coffeehouse culture that would profoundly influence society. The first European coffeehouse opened its doors in Venice in 1645, paving the way for the establishment of coffeehouses in cities like London, Paris, and Vienna. These places of intellectual discourse became hubs for writers, artists, philosophers, and merchants to gather, exchange ideas, and fuel their creative pursuits.</p>\r\nThe 18th century witnessed a significant shift in the coffee industry when European colonial powers began cultivating coffee in their overseas colonies. Countries like Brazil, Colombia, and Java became major coffee producers, propelling coffee into a global commodity. The rise of coffee plantations and the demand for labor gave birth to complex issues of exploitation and inequality, shaping the dynamics of the industry.\r\n<p>In the 20th century, coffee's popularity surged even further with the advent of mass production and innovative brewing methods. Instant coffee emerged as a convenient option, catering to a fast-paced lifestyle. At the same time, espresso machines and coffeehouses experienced a renaissance, bringing forth a wave of specialty coffee and artisanal brewing techniques. The emergence of coffee chains, such as Starbucks, in the late 20th century played a pivotal role in transforming coffee into a global phenomenon, accessible to people from all walks of life.</p>\r\nToday, coffee culture permeates every corner of the globe. From the bustling streets of New York City to the serene cafes of Melbourne, coffee has become synonymous with social connection, productivity, and personal indulgence. Latte art, coffee cupping, and the pursuit of the perfect pour-over have become not just hobbies, but art forms in themselves.\r\n<p>Coffee's journey from ancient origins to modern-day culture is a testament to its enduring appeal. It has evolved from a little-known fruit to an integral part of our daily lives, fueling our mornings, inspiring conversations, and offering moments of respite. The history of coffee is a captivating narrative that continues to unfold, as new brewing methods, flavor profiles, and sustainable practices reshape the industry.</p>\r\nIn conclusion, the history of coffee is a testament to the power of a simple beverage to transcend time and boundaries, weaving its way into the fabric of societies around the world. From its humble beginnings in Ethiopia to the vibrant coffee culture we know today, coffee has become an integral part of our global heritage, connecting people and shaping the way we experience the world one sip at a time.",
+    "date": "2023-07-06",
+    "url": ""
+  }
+},
+{
+  "model": "Educational.educational",
+  "pk": 3,
+  "fields": {
+    "title": "Coffee Bean Varieties: Exploring Different Types and Flavors",
+    "description": "When it comes to the world of coffee, one cannot overlook the vast array of coffee bean varieties that exist. Each variety brings a unique set of flavors, aromas, and characteristics, allowing coffee enthusiasts to embark on a delightful journey of exploration and discovery. From the widely known Arabica and Robusta beans to lesser-known varieties, the coffee bean world is a captivating realm that offers something for every palate.\r\n<p>Arabica, scientifically known as Coffea arabica, is the most popular and widely consumed coffee bean variety. It originated in the highlands of Ethiopia and is now grown in numerous regions around the world. Arabica beans are celebrated for their complex flavors and delightful aromas. They often exhibit a wide range of taste notes, including fruity, floral, chocolatey, and nutty profiles. Arabica beans are typically preferred by specialty coffee enthusiasts due to their nuanced flavors and perceived higher quality.</p>\r\nOn the other hand, Robusta beans, scientifically known as Coffea canephora, are known for their robust and intense flavors. They are primarily grown in regions with a warmer climate, such as Africa, Southeast Asia, and Brazil. Robusta beans contain a higher caffeine content compared to Arabica beans and offer a distinct taste profile characterized by earthy, woody, and sometimes bitter notes. Robusta beans are often used in espresso blends to enhance crema and provide a bold and strong flavor foundation.\r\n<p>Beyond Arabica and Robusta, there is a plethora of lesser-known coffee bean varieties that deserve recognition. One such variety is Liberica, also known as Coffea liberica, which is native to West Africa and has a unique flavor profile described as woody and floral with a hint of fruitiness. Though less commonly found, Liberica beans contribute to the diversity of coffee flavors.\r\nAnother fascinating coffee bean variety is Excelsa, also known as Coffea liberica var. dewevrei. Native to Southeast Asia, Excelsa beans have a distinct flavor profile that blends fruity and earthy notes, often described as tart and wine-like. While less prevalent in the market, Excelsa adds an interesting twist to coffee tasting experiences.</p>\r\nMaragogype, or Elephant beans, are yet another distinctive variety worth exploring. These large beans, characterized by their size and irregular shape, are a mutation of the Arabica species. They are primarily grown in Central America and offer a unique flavor profile with pronounced acidity and a complex mix of fruity and floral notes.\r\n<p>Geisha, a variety that gained tremendous popularity in recent years, originates from Ethiopia but found its fame in Panama. Geisha beans are renowned for their exceptional quality and exquisite flavor profiles. They often exhibit vibrant floral and tea-like notes, along with a delicate sweetness and elegant acidity.</p>\r\nThe world of coffee bean varieties extends even further, encompassing Bourbon, Typica, Catuai, Pacamara, and many more. Each variety contributes to the diverse and intricate tapestry of flavors that coffee lovers have the pleasure of experiencing.\r\n<p>Exploring different coffee bean varieties is akin to embarking on a sensory adventure. It allows coffee enthusiasts to discover their personal preferences, appreciate the nuances in flavor profiles, and gain a deeper understanding of the art and science behind coffee cultivation and processing.\r\nWhether one's preference lies in the delicate nuances of Arabica, the boldness of Robusta, or the curiosity of lesser-known varieties, the exploration of coffee bean varieties is a journey that promises to delight the senses and expand the horizons of coffee appreciation. So, grab a cup of your favorite coffee, savor the flavors, and embrace the diversity that the world of coffee bean varieties has to offer.</p>",
+    "date": "2023-07-06",
+    "url": ""
+  }
+},
+{
+  "model": "Educational.educational",
+  "pk": 4,
+  "fields": {
+    "title": "Brewing Methods: A Comprehensive Guide to Brewing the Perfect Cup",
+    "description": "Brewing Methods: A Comprehensive Guide to Brewing the Perfect Cup\r\nBrewing a cup of coffee is an art form that allows coffee lovers to unlock the full potential of the beans they choose. With a wide range of brewing methods available, each with its unique characteristics, mastering the art of brewing can elevate your coffee experience to new heights. Whether you prefer the simplicity of a French press or the precision of a pour-over, this comprehensive guide will explore some popular brewing methods to help you achieve that elusive perfect cup.\r\n<p>\r\n1. Pour-Over: This method, epitomized by the iconic Chemex and Hario V60, involves pouring hot water over coffee grounds placed in a filter cone. It allows for precise control over extraction and emphasizes clarity and subtlety in flavor. The key is to pour the water in a slow, circular motion, ensuring even saturation and extraction.</p>\r\n<p>\r\n2. French Press: A classic method loved for its simplicity, the French press involves steeping coffee grounds in hot water and then pressing a mesh plunger to separate the liquid from the grounds. This method produces a full-bodied and robust cup of coffee with a rich mouthfeel. Controlling the steeping time is crucial to achieve the desired strength.</p>\r\n3. Aeropress: This compact and versatile brewing method uses air pressure to extract flavors from coffee grounds. It allows for experimentation, as you can adjust variables like grind size, brewing time, and water temperature. The result is a clean and smooth cup, with the ability to create both concentrated espresso-like shots and lighter filter-style brews.\r\n<p>4. Espresso: The foundation of various coffee-based drinks, espresso is brewed under high pressure using a specialized espresso machine. It involves finely ground coffee packed tightly into a portafilter, resulting in a concentrated shot with a bold and intense flavor profile. Achieving the perfect extraction requires careful attention to grind size, tamping pressure, and brew time.</p>\r\n5. Cold Brew: Cold brew is a slow and gentle extraction method that involves steeping coffee grounds in cold water for an extended period, typically overnight. The result is a smooth, low-acid coffee concentrate that can be diluted to taste. Cold brew is known for its refreshing qualities and is often enjoyed over ice.\r\n<p>6. Moka Pot: Popularized in Italy, the Moka pot brews coffee by using steam pressure to push water through a chamber containing coffee grounds. It produces a strong, concentrated brew with a rich flavor and a velvety texture. The grind size should be fine, and care should be taken not to over-extract, as it can lead to bitterness.</p>\r\n7. Siphon: Siphon brewing combines elements of science and spectacle. It uses vapor pressure and vacuum to brew coffee, resulting in a clean and flavorful cup. The process involves heating water in the bottom chamber, which then rises to mix with coffee grounds in the upper chamber. After the brewing process, the liquid is drawn back down as it cools, leaving the grounds behind.\r\nRemember, achieving the perfect cup of coffee is a matter of personal preference, and experimentation is key. Factors like coffee-to-water ratio, grind size, water temperature, and brewing time all contribute to the final result. Additionally, using freshly roasted beans and grinding them just before brewing will ensure optimal flavor and aroma.\r\n<p>By exploring various brewing methods and fine-tuning your technique, you can unlock a world of flavors and tailor your coffee experience to suit your preferences. So, grab your favorite brewing equipment, source high-quality beans, and embark on the journey of brewing the perfect cup—one that tantalizes your taste buds and brings joy to each sip.</p>",
+    "date": "2023-07-06",
+    "url": ""
+  }
+},
+{
+  "model": "Educational.educational",
+  "pk": 5,
+  "fields": {
+    "title": "Coffee and Art: The Intersection of Coffee Culture and Creativity",
+    "description": "Coffee, with its rich aroma and stimulating properties, has long been a muse for creativity and a catalyst for artistic expression. The relationship between coffee and art is a dynamic intersection where the vibrant world of coffee culture intertwines with the boundless realms of artistic inspiration. From coffee-inspired paintings and photography to coffeehouse performances and coffee-centric literature, the marriage of coffee and art is a captivating and enduring affair.\r\nVisual art has been profoundly influenced by the allure of coffee. Countless painters throughout history have depicted coffee-related scenes, capturing the essence of coffeehouses as gathering places for intellectuals and artists. From the Impressionists, who depicted café scenes and leisurely coffee breaks, to contemporary artists who use coffee as a medium, the connection between coffee and art is vividly portrayed on canvas. Some artists even create unique coffee paintings by diluting coffee with water, using it as a distinctive pigment to create sepia-toned works that exude warmth and richness.\r\n<p>\r\nPhotography, too, has found inspiration in the world of coffee. From capturing the artful latte designs and intricate coffee brewing processes to documenting the vibrant coffeehouse culture, photographers have embraced coffee as a subject. Coffee-centric photography captures the mesmerizing swirls of milk and espresso, the delicate beauty of coffee beans, and the intimacy of shared moments over a cup of coffee. Through their lenses, photographers capture the essence of coffee as not just a beverage but a sensory experience.</p>\r\n<p>The performing arts have also been deeply intertwined with coffee culture. Coffeehouses have long been venues for artistic performances, from poetry readings and live music to theatrical plays and stand-up comedy. These creative spaces provide a platform for artists to share their work, collaborate, and connect with audiences in an intimate and convivial setting. Coffeehouses foster a sense of community and inspire dialogue, nurturing the creative spirit and fostering artistic growth.\r\nLiterature, too, has paid homage to coffee's influence on artistic expression. Countless writers, poets, and novelists have waxed poetic about the sensory delights of coffee, using it as a metaphor for introspection, social interaction, and intellectual stimulation. Coffeehouses themselves have been settings for literary gatherings and intellectual discourse, serving as creative sanctuaries where ideas are born and stories unfold. The aroma of freshly brewed coffee and the gentle hum of conversation create an atmosphere conducive to contemplation and the flow of ideas.</p>\r\n<p>Beyond the realms of traditional art, coffee has also found its way into the realm of culinary arts. The art of latte art, where baristas skillfully pour milk into espresso to create intricate designs, has become a celebrated form of artistic expression in itself. From simple heart shapes to elaborate portraits and landscapes, latte art showcases the creativity and craftsmanship that can be achieved with coffee as a medium.</p>\r\n<p>The intersection of coffee and art is not just a one-way relationship. Coffee itself is often a source of inspiration for artists, writers, and performers. The ritual of brewing and savoring coffee can be a meditative practice that stimulates the imagination and unlocks creative ideas. Many artists find solace in the quiet moments of solitude with a cup of coffee, using it as a source of inspiration and a muse for their work.</p>\r\n<p>In conclusion, coffee and art share a profound and symbiotic relationship. Coffee culture, with its vibrant community and sensory delights, serves as a wellspring of inspiration for artists, photographers, writers, and performers. At the same time, art immortalizes the beauty and essence of coffee, capturing its nuances and celebrating its role in human creativity. The intersection of coffee and art is a captivating realm where the worlds of taste, aroma, imagination, and expression converge, creating a rich tapestry that reflects the deep connection between coffee culture and the artistic spirit.</p>",
+    "date": "2023-07-06",
+    "url": ""
+  }
+},
+{
+  "model": "Educational.educational",
+  "pk": 6,
+  "fields": {
+    "title": "Pairing Coffee with Food: Unleashing the Flavors in Perfect Harmony",
+    "description": "Coffee, with its intricate flavor profiles and aromatic complexities, is not only a beloved beverage on its own but also an exquisite companion to a wide array of culinary delights. Pairing coffee with food is an art that can elevate the dining experience, as the interplay of flavors and textures can create a harmonious symphony on the palate. From complementary pairings that enhance the nuances of both coffee and food to contrasting combinations that create delightful surprises, exploring the world of coffee and food pairing opens up a world of gastronomic possibilities.\r\n<p>When it comes to pairing coffee with food, it's important to consider the characteristics of both the coffee and the dish. Elements such as acidity, sweetness, body, and intensity should be taken into account to create a balance that enhances and harmonizes the flavors.</p>\r\nOne classic pairing is matching a rich, bold coffee with dark chocolate. The bitter notes of the chocolate are beautifully complemented by the deep flavors and slight bitterness of the coffee. The combination creates a luxurious and indulgent experience for the taste buds.\r\n<p>Similarly, a fruity and bright Ethiopian coffee can be paired with a light and tangy lemon tart. The citrusy notes in the coffee echo the tartness of the dessert, creating a refreshing and vibrant combination.</p>\r\nFor those who enjoy savory pairings, a medium-bodied coffee with earthy undertones can be paired with a mushroom risotto. The earthiness of the mushrooms resonates with the coffee, resulting in a satisfying and comforting combination.\r\nWhen it comes to breakfast or brunch, a medium-roasted Colombian coffee can beautifully complement the flavors of buttery croissants. The coffee's mild acidity cuts through the richness of the pastry, creating a delightful balance.\r\n<p>In some cases, contrasting pairings can create unexpected and delightful flavor combinations. For instance, a crisp and acidic Ethiopian coffee can be paired with a creamy and sweet cheesecake. The acidity of the coffee cuts through the richness of the dessert, creating a unique and tantalizing contrast.</p>\r\nWhen exploring pairings, it's also worth considering the regional origins of both the coffee and the food. For example, a Mexican coffee with its nutty and chocolatey flavors can be paired with traditional Mexican dishes like churros or mole. This not only celebrates the cultural connection but also enhances the regional flavors.\r\n<p>Experimentation is key to discovering new and exciting coffee and food pairings. Consider the flavors and textures in the food, and select a coffee that complements or contrasts with those elements. Pay attention to the body, acidity, and flavor notes of the coffee, as they can either enhance or clash with the flavors of the food.</p>\r\nMoreover, personal preferences play a significant role in pairing coffee with food. Everyone's palate is unique, and what might be a perfect pairing for one person may not be the same for another. It's important to trust your own taste buds and explore different combinations to find the pairings that bring you the most enjoyment.\r\n<p>In conclusion, pairing coffee with food is an art that unlocks a world of flavor possibilities. From complementary pairings that enhance each other's flavors to contrasting combinations that create delightful surprises, the interplay between coffee and food can elevate the dining experience. Through experimentation, exploration, and a keen understanding of flavor profiles, coffee lovers can unleash the perfect harmony of flavors and textures, creating memorable culinary experiences that celebrate the wonders of both coffee and food.</p>",
+    "date": "2023-07-06",
+    "url": ""
+  }
+},
+{
+  "model": "Educational.educational",
+  "pk": 7,
+  "fields": {
+    "title": "Decoding Coffee Alternatives: Discovering Delicious Non-Caffeinated Beverages",
+    "description": "<p>For those seeking a break from caffeine or looking for flavorful alternatives to coffee, a wide range of non-caffeinated beverages offer delightful options to explore. These beverages not only provide a refreshing experience but also offer unique flavors, health benefits, and the opportunity to expand your palate. From herbal teas and decaffeinated options to specialty drinks crafted from alternative ingredients, decoding coffee alternatives unlocks a world of delicious and invigorating non-caffeinated beverages.</p>\r\n<p>Herbal teas serve as an excellent starting point for those looking for a caffeine-free alternative. With an assortment of flavors and blends, herbal teas offer a diverse range of taste experiences. Chamomile tea, known for its calming properties, provides a soothing and floral infusion, perfect for winding down in the evening. Peppermint tea delivers a refreshing burst of menthol, offering a cool and invigorating sensation. Hibiscus tea, with its vibrant red color and tangy flavor, is both visually appealing and thirst-quenching. These herbal teas can be enjoyed hot or cold, providing flexibility to suit different moods and preferences.</p>\r\n<p>Decaffeinated coffee is another popular alternative for those who enjoy the taste and aroma of coffee without the stimulating effects of caffeine. Decaf coffee is made by removing most of the caffeine from coffee beans through various processes, such as the Swiss Water Method or the CO2 method. This results in a beverage that retains the familiar flavors and aroma of coffee while offering a lower caffeine content. Decaf coffee can be brewed in various styles, such as espresso, drip coffee, or French press, allowing coffee enthusiasts to enjoy their favorite coffee rituals without the jolt of caffeine.</p>\r\n<p>For those seeking unique and innovative coffee alternatives, a variety of specialty drinks crafted from alternative ingredients are available. Matcha, a finely ground powdered green tea, has gained popularity for its distinct flavor and vibrant green color. It provides a smooth and earthy taste and offers a gentle boost of energy without the caffeine crash often associated with coffee. Turmeric lattes, also known as golden milk, have gained attention for their anti-inflammatory properties and warm, comforting flavors. These beverages combine turmeric, spices, and plant-based milk to create a creamy and aromatic drink. Additionally, adaptogenic mushroom beverages, such as reishi or chaga teas, offer earthy and soothing flavors along with potential health benefits.</p>\r\n<p>Fruit and vegetable juices provide a refreshing and nutrient-packed alternative to coffee. Freshly squeezed juices offer a burst of vitamins, minerals, and antioxidants. Citrus fruits like oranges and grapefruits provide a tangy and invigorating flavor, while combinations of vegetables like carrots, beets, and celery offer a refreshing and hydrating option. Juice bars and health-conscious establishments often provide a wide array of juice blends, allowing for creative and flavorful combinations.</p>\r\n<p>Sparkling water infused with fruits or herbs presents a carbonated and hydrating alternative. Adding a twist of citrus, a few slices of cucumber, or sprigs of fresh herbs like mint or basil to sparkling water can elevate the flavor and provide a refreshing and effervescent experience.\r\nWhen exploring coffee alternatives, it's important to consider personal taste preferences, health considerations, and desired flavor profiles. Experimenting with different options allows you to find the beverages that best suit your needs and bring enjoyment to your daily routine.</p>\r\n<p>Decoding coffee alternatives not only introduces a variety of delicious and non-caffeinated beverages but also broadens your horizons and encourages exploration. These alternatives provide a break from caffeine while still offering flavorful and invigorating options. So, sip on herbal teas, savor decaf coffee, indulge in specialty drinks, and delight in the vast array of coffee alternatives that await your discovery. Cheers to exploring new flavors and embracing the world of non-caffeinated beverages!</p>",
+    "date": "2023-07-07",
+    "url": ""
+  }
+},
+{
+  "model": "Educational.educational",
+  "pk": 8,
+  "fields": {
+    "title": "Navigating the World of Non-Alcoholic Beer: Flavorful Alternatives for Beer Enthusiasts",
+    "description": "<p>For beer enthusiasts who want to enjoy the taste and experience of beer without the alcohol, the world of non-alcoholic beer offers a plethora of flavorful alternatives. Non-alcoholic beers have come a long way in recent years, evolving from bland and uninspiring options to a diverse range of brews that cater to various tastes and preferences. Whether you're looking for the hoppy bitterness of an IPA, the smooth richness of a stout, or the crisp refreshment of a lager, non-alcoholic beers have something to offer for everyone. Let's explore the world of non-alcoholic beer and discover the flavorful alternatives that will satisfy your beer cravings.</p>\r\n<p>Non-alcoholic beers are brewed similarly to their alcoholic counterparts, with the key difference being the removal of alcohol after fermentation. This process allows the beer to retain its characteristic flavors, aromas, and mouthfeel, creating an authentic beer-drinking experience without the alcohol content. While the alcohol is removed, the brewing techniques and ingredients ensure that the flavors and complexities of beer remain intact.</p>\r\n<p>One of the most remarkable aspects of non-alcoholic beer is the variety of styles available. Lager lovers can enjoy crisp and clean non-alcoholic lagers that provide a refreshing and light-bodied experience. These beers are perfect for quenching your thirst on a hot summer day. Non-alcoholic pale ales and IPAs offer hoppy bitterness, floral aromas, and a range of flavor profiles that can satisfy even the most discerning beer enthusiasts. Dark beer lovers can indulge in non-alcoholic stouts and porters, which retain their rich roasted malt flavors and velvety textures. These brews provide a delightful alternative for those seeking depth and complexity in their beer choices.</p>\r\n<p>The rise of craft breweries and their dedication to quality and innovation has significantly contributed to the growth of non-alcoholic beer options. Craft breweries are producing non-alcoholic versions of their popular beers, ensuring that beer enthusiasts can enjoy their favorite styles without the alcohol. This trend has expanded the choices available, allowing for a wider selection of flavorful non-alcoholic beers to explore.</p>\r\n<p>Another exciting aspect of non-alcoholic beer is the emergence of unique and creative brews. Craft brewers are experimenting with ingredients like fruits, spices, and botanicals to create non-alcoholic beers with distinct and enticing flavor profiles. From non-alcoholic fruit-infused wheat beers to herb-spiced ales, these innovative brews push the boundaries of traditional beer flavors and offer new and exciting experiences.</p>\r\n<p>It's important to note that non-alcoholic beers vary in terms of taste, aroma, and mouthfeel. Some non-alcoholic beers closely mimic their alcoholic counterparts, while others may have slight differences in flavor intensity or carbonation. It's a matter of personal preference and experimentation to find the non-alcoholic beers that resonate with your taste buds.</p>\r\n<p>Navigating the world of non-alcoholic beer requires an open mind and a willingness to explore different brands and styles. It's essential to read labels and understand the brewing methods employed by different breweries to ensure you're selecting beers that align with your preferences. Online beer communities and specialty stores can be valuable resources for discovering new and highly regarded non-alcoholic beer options.</p>\r\n<p>Non-alcoholic beer is a fantastic alternative for beer enthusiasts who want to enjoy the flavors, aromas, and social aspects of beer without the alcohol content. It allows for responsible drinking choices while still providing a satisfying and enjoyable experience. Whether you're looking to cut back on alcohol, have dietary restrictions, or simply want to diversify your beer choices, non-alcoholic beers offer a world of flavorful alternatives that cater to a range of tastes.</p>\r\n<p>In conclusion, the world of non-alcoholic beer has expanded and evolved to meet the demands of beer enthusiasts seeking flavorful alternatives.</p>",
+    "date": "2023-07-07",
+    "url": ""
+  }
+},
+{
+  "model": "Educational.educational",
+  "pk": 9,
+  "fields": {
+    "title": "Healthy Hydration Habits: Exploring Refreshing and Nutritious Non-Alcoholic Drinks",
+    "description": "<p>Staying hydrated is essential for overall well-being, and while water is undoubtedly the best choice for hydration, there are plenty of refreshing and nutritious non-alcoholic drinks that can provide both hydration and flavor. These beverages not only quench your thirst but also offer an array of health benefits, making them a fantastic alternative to sugary sodas or artificially flavored drinks. Let's delve into the world of healthy hydration habits and discover some delightful non-alcoholic options that will keep you hydrated and nourished.</p>\r\n<p>1. Infused Water: Infusing water with fresh fruits, herbs, and vegetables is a simple yet effective way to enhance its flavor while adding nutrients. Citrus slices, cucumber, mint leaves, and berries are popular choices for infusing water. These additions not only provide a burst of refreshing taste but also contribute vitamins, minerals, and antioxidants.</p>\r\n<p>2. Herbal Teas: Herbal teas are a wonderful choice for hydration and relaxation. They are caffeine-free and come in various flavors, each with its unique health benefits. Chamomile tea promotes calmness and aids in digestion, while peppermint tea offers a soothing effect on the stomach. Herbal teas can be enjoyed hot or cold, making them a versatile and nourishing choice.</p>\r\n<p>3. Fruit and Vegetable Juices: Freshly squeezed fruit and vegetable juices are packed with vitamins, minerals, and antioxidants. They provide a natural sweetness and vibrant flavors while keeping you hydrated. Opt for juices made from whole fruits and vegetables, as they retain more fiber and nutrients. Be mindful of portion sizes and avoid excessive consumption of fruit juices due to their natural sugar content.</p>\r\n<p>4. Smoothies: Smoothies offer a delicious and nutritious way to hydrate while enjoying a blend of fruits, vegetables, and other healthy ingredients. You can create a wide range of flavors and textures by combining ingredients such as bananas, berries, leafy greens, yogurt, and nut butters. Adding a liquid base like water or coconut water ensures optimal hydration while keeping the smoothie light and refreshing.</p>\r\n<p>5. Kombucha: Kombucha is a fermented tea beverage known for its probiotic properties. It contains beneficial bacteria and enzymes that support gut health and digestion. Kombucha comes in various flavors and offers a fizzy and tangy taste. However, it's important to choose brands with low sugar content and consume it in moderation.</p>\r\n<p>6. Coconut Water: Natural coconut water is a refreshing and hydrating option, rich in electrolytes like potassium and magnesium. It replenishes essential minerals lost during physical activity or sweating. Opt for unsweetened coconut water to avoid added sugars.</p>\r\n<p>7. Sparkling Water with Citrus: For those who enjoy carbonated drinks, sparkling water infused with a squeeze of citrus provides a refreshing and hydrating choice. The bubbly texture and tangy flavor make it a great substitute for sugary sodas or artificially flavored beverages.</p>\r\n<p>8. Iced Herbal Tea: Brewing herbal teas and then chilling them to serve over ice is a delightful way to stay hydrated. Mint, hibiscus, and berry-infused teas are particularly refreshing when enjoyed cold. You can add a touch of sweetness with a natural sweetener like honey or stevia if desired.</p>\r\n<p>When choosing non-alcoholic beverages for healthy hydration, it's essential to be mindful of added sugars, artificial sweeteners, and preservatives. Opt for natural and whole ingredients, and read labels carefully to make informed choices.</p>\r\n<p>In conclusion, maintaining healthy hydration habits is vital for overall well-being, and incorporating refreshing and nutritious non-alcoholic drinks into your routine can make hydration enjoyable. From infused waters and herbal teas to homemade juices and smoothies, the options are abundant. Embrace these flavorful alternatives, explore new recipes, and quench your thirst withnutritious and delicious beverages that will keep you hydrated and nourished throughout the day. By prioritizing healthy hydration habits, you're not only taking care of your body but also indulging in the pleasure of flavorful and wholesome drinks. So, raise a glass to your well-being and enjoy the refreshing journey of exploring non-alcoholic options that will invigorate your senses and support your health. Cheers to a hydrated and vibrant life!</p>",
+    "date": "2023-07-04",
+    "url": ""
+  }
+},
+{
+  "model": "Educational.educational",
+  "pk": 10,
+  "fields": {
+    "title": "The Art of Tea Blending: Creating Unique and Flavorful Tea Infusions",
+    "description": "<p>Tea, with its rich history and diverse array of flavors, is a beverage that lends itself beautifully to the art of blending. The process of tea blending involves combining different tea varieties, herbs, flowers, and spices to create unique and flavorful infusions. This art form allows tea enthusiasts to tailor their tea experience, exploring a wide range of tastes, aromas, and textures. The art of tea blending unlocks a world of creativity and provides a delightful journey of discovering new and personalized tea blends.</p>\r\n<p>The foundation of tea blending lies in the selection of high-quality base teas. These can include popular varieties such as black tea, green tea, white tea, and oolong tea. Each type of tea brings its distinct characteristics, from the robust and full-bodied flavors of black tea to the delicate and floral notes of white tea. These base teas serve as a canvas upon which the artistry of tea blending is built.</p>\r\n<p>Herbs and botanicals play a vital role in creating unique flavor profiles in tea blends. Ingredients like chamomile, mint, lavender, lemongrass, and hibiscus can add layers of aroma and complexity. They provide a natural sweetness, earthiness, or a citrusy tang that beautifully complements the base tea. The selection of herbs and botanicals offers endless possibilities for creating different moods and sensations in the cup.\r\nThe addition of spices can bring warmth, depth, and a touch of exoticism to tea blends. Popular spices like cinnamon, ginger, cardamom, and cloves can infuse teas with a rich and aromatic flavor. These spices not only provide a tantalizing taste but also offer potential health benefits, creating a harmonious fusion of flavor and wellness.</p>\r\n<p>Flowers are another enchanting element in tea blending. Varieties such as rose, jasmine, lavender, and chamomile petals infuse teas with their delicate fragrances and gentle floral notes. The beauty of flower-infused teas lies in their ability to create a sensory experience that is both calming and visually captivating.</p>\r\n<p>The art of tea blending extends beyond the selection of ingredients; it also involves mastering the technique of creating well-balanced and harmonious blends. The proportion of each ingredient is crucial in achieving the desired flavor profile. Careful consideration is given to the strength of the base tea, the potency of the herbs and spices, and the delicate nuances of the flowers. Skillful blending allows for a symphony of flavors, where no single ingredient overwhelms the others, resulting in a perfectly balanced cup of tea.</p>\r\n<p>Tea blending is a deeply personal and creative endeavor. It invites tea enthusiasts to experiment, trust their palate, and follow their intuition. There are no hard and fast rules; rather, it is a journey of exploration and discovery. Each blend becomes a reflection of the blender's taste preferences and individuality, making it a truly unique and personalized creation.</p>\r\n<p>Tea blending also offers an opportunity to create tea blends tailored to specific needs and occasions. Blends designed to invigorate and energize may incorporate ingredients like citrus or herbs with stimulating properties. Meanwhile, blends focused on relaxation and well-being might include chamomile, lavender, and other calming botanicals. The art of blending allows tea lovers to curate their tea collections, with blends for every mood, moment, and preference.</p>\r\n<p>In conclusion, the art of tea blending is an intricate and delightful craft that allows tea enthusiasts to create unique and flavorful tea infusions. Through the careful selection of base teas, herbs, spices, and flowers, a wide range of tastes, aromas, and textures can be blended to create captivating tea experiences. Whether it's a comforting and soothing blend, an invigorating and refreshing infusion, or a complex and layered fusion, tea blending opens upa world of creativity and personalization. So, gather your favorite teas, explore a variety of ingredients, and embark on a journey of tea blending that will unlock new dimensions of flavor and make every cup a delightful and unique experience. The art of tea blending is an invitation to explore the limitless possibilities that lie within a teacup, and to savor the creativity and craftsmanship that comes with each sip.</p>",
+    "date": "2023-07-02",
+    "url": ""
+  }
+},
+{
+  "model": "Educational.educational",
+  "pk": 11,
+  "fields": {
+    "title": "Mocktail Magic: Crafting Delicious Non-Alcoholic Cocktails for Every Occasion",
+    "description": "<p>Mocktails, or non-alcoholic cocktails, have gained significant popularity in recent years as an exciting and sophisticated alternative to traditional alcoholic beverages. These delightful concoctions offer a refreshing burst of flavors, intricate presentation, and the opportunity to celebrate without the effects of alcohol. Whether you're hosting a party, enjoying a casual gathering, or simply looking for a special treat, mastering the art of mocktail creation will enable you to craft delicious beverages for every occasion.</p>\r\n<p>The beauty of mocktails lies in their versatility and endless possibilities. Just like their alcoholic counterparts, mocktails can be made with a variety of ingredients, including fresh fruits, herbs, spices, juices, and syrups. They can be shaken, stirred, muddled, or built directly in the glass, allowing for creative expression and personalization.</p>\r\n<p>One key element in mocktail creation is the selection of a flavorful base. Fresh fruit juices such as orange, pineapple, cranberry, and grapefruit are popular choices that provide a vibrant and tangy foundation. Herbal infusions, like chamomile or hibiscus tea, can lend a delicate and aromatic touch. Sparkling water or tonic water adds effervescence and a refreshing crispness to the mocktail.</p>\r\n<p>To elevate the flavors, mocktails often incorporate various sweeteners and syrups. Simple syrup, made by dissolving equal parts sugar and water, adds a touch of sweetness and balances the acidity of citrus juices. Flavored syrups like vanilla, lavender, or ginger can bring unique and enticing dimensions to the mocktail, enhancing the overall taste experience.</p>\r\n<p>Muddled ingredients, such as fresh herbs, fruits, or even cucumber slices, impart aromatic essences and add complexity to the mocktail. The gentle mashing releases the essential oils and flavors, infusing the drink with their natural goodness. Mint leaves, basil, rosemary, and berries are popular choices for muddling, offering a burst of freshness and visual appeal.</p>\r\n<p>Mocktails can also be garnished with flair to enhance their presentation. Fresh fruit slices, edible flowers, herb sprigs, or colorful straws can elevate the visual appeal, creating an enticing beverage that is pleasing to the eye.\r\nWhen it comes to creating specific mocktail recipes, the sky is the limit. Classic mocktails like the Virgin Mojito, Shirley Temple, or Pina Colada offer timeless flavors and are perfect for any occasion. Alternatively, experimenting with unique combinations can lead to surprising discoveries. For example, a refreshing blend of watermelon, cucumber, and lime juice can create a vibrant and thirst-quenching mocktail, while a mix of cranberry, apple, and ginger ale can deliver a zesty and spicy delight.</p>\r\n<p>Furthermore, mocktails can be tailored to match specific themes or occasions. For a tropical-themed gathering, a mocktail with pineapple juice, coconut cream, and a splash of grenadine can transport guests to an exotic paradise. A holiday-inspired mocktail might combine cranberry juice, sparkling apple cider, and a hint of cinnamon, evoking the warmth and joy of the festive season.</p>\r\n<p>In conclusion, mocktail magic is all about the art of crafting delicious non-alcoholic cocktails for every occasion. With an array of fresh ingredients, flavorful bases, sweeteners, and garnishes, you can create mocktails that are as visually stunning as they are delectable. Whether you're hosting a party, enjoying a night in, or simply seeking a refreshing and sophisticated beverage, mocktails provide endless opportunities for creative expression and delightful taste experiences. So, grab your shaker, experiment with flavors, and let your imagination run wild as you embark on the enchanting journey of mocktail creation. Cheers!</p>",
+    "date": "2023-07-07",
+    "url": ""
+  }
+}
+]

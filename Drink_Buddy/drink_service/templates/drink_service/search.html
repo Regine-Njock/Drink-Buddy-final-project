@@ -1,0 +1,148 @@
+{% extends 'drink_service/premium_base.html' %}
+{% load static %}
+{% block content %}
+<br>
+<br>
+<div class="username">
+    <h1>
+    {% if user.is_authenticated %}
+    Hi {{ user.username }}, let's search for some drinks!
+    {% endif %}
+    </h1>
+</div>
+<div>
+    <form method="GET" action="{% url 'search_drinks' %}">
+        <input type="text" name="name" placeholder="Drink Name">
+        <input type="text" name="ingredients" placeholder="Ingredients">
+        <select name="temperature">
+            <option value="">Temperature</option>
+            <option value="20+">20+</option>
+            <option value="10 to 20">10 to 20</option>
+            <option value="0 to 10">0 to 10</option>
+            <option value="-15 to 0">-15 to 0</option>
+        </select>
+        <select name="time_of_day">
+            <option value="">Time of Day</option>
+            <option value="5 to 11">5 to 11</option>
+            <option value="12 to 23">12 to 23</option>
+        </select>
+
+        <select name="time_of_year">
+            <option value="">Time of Year</option>
+            <option value="christmas">Christmas</option>
+            <option value="summer">Summer</option>
+            <option value="winter">Winter</option>
+            <option value="all_year">All Year</option>
+            <option value="fall">Fall</option>
+            <option value="spring">Spring</option>
+        </select>
+
+        <select name="social_situation">
+            <option value="">Social Situation</option>
+            <option value="alone">Alone</option>
+            <option value="wedding">In a Wedding</option>
+            <option value="party">In a Party</option>
+            <option value="friends">With Friends</option>
+            <option value="park">On the Park</option>
+            <option value="to_go">To Go</option>
+            <option value="home">Relaxing at Home</option>
+            <option value="breakfast">For Breakfast</option>
+            <option value="brunch">Outdoor Brunch</option>
+            <option value="cafe_chat">Cozy Café Chat</option>
+            <option value="picnic">Picnic in the Park</option>
+            <option value="outdoor_party">Outdoor Party</option>
+            <option value="study_work">Studying or Working</option>
+            <option value="beach">At the Beach</option>
+            <option value="cozy_night">Cozy Night at Home</option>
+            <option value="drink_night">Cozy Drink Night</option>
+        </select>
+
+        <select name="mood">
+            <option value="">Mood</option>
+            <option value="cheerful">Cheerful</option>
+            <option value="reflective">Reflective</option>
+            <option value="romantic">Romantic</option>
+            <option value="calm">Calm</option>
+            <option value="cozy">Cozy</option>
+            <option value="sociable">Sociable</option>
+            <option value="hopeful">Hopeful</option>
+            <option value="angry">Angry</option>
+            <option value="tense">Tense</option>
+            <option value="energetic">Energetic</option>
+            <option value="refreshing">Refreshing</option>
+        </select>
+
+        <button type="submit">Search</button>
+    </form>
+<br>
+    {% if recipes %}
+    <div class="row">
+        {% for recipe in recipes %}
+            <div class="col">
+                <div class="card" style="width: 180px;">
+                    <a href="{% url 'drink_service-detail' recipe.id %}">
+                    <img src="{{ recipe.imagefile.url }}" class="card-img-top"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">{{ recipe.name }}</h5>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+    {% else %}
+        <p>No drinks found.</p>
+
+    {% endif %}
+
+</div>
+<br>
+
+<div class="container">
+    <nav aria-label="Recipe Pagination">
+      <ul class="pagination justify-content-center">
+
+        {% if recipes.has_previous %}
+        <li class="page-item">
+          <a class="page-link" href="?page={{ recipes.previous_page_number }}" aria-label="Previous">
+            Previous
+          </a>
+        </li>
+        {% else %}
+        <li class="page-item disabled">
+          <span class="page-link" aria-hidden="true">&laquo;</span>
+        </li>
+        {% endif %}
+
+        {% for i in recipes.paginator.page_range %}
+          {% if recipes.number == i %}
+          <li class="page-item active">
+            <span class="page-link">{{ i }}</span>
+          </li>
+          {% else %}
+          <li class="page-item">
+            <a class="page-link" href="?page={{ i }}">{{ i }}</a>
+          </li>
+          {% endif %}
+        {% endfor %}
+
+        {% if recipes.has_next %}
+        <li class="page-item">
+          <a class="page-link" href="?page={{ recipes.next_page_number }}" aria-label="Next">
+            Next
+          </a>
+        </li>
+        {% else %}
+        <li class="page-item disabled">
+          <span class="page-link" aria-hidden="true">&raquo;</span>
+        </li>
+        {% endif %}
+
+      </ul>
+    </nav>
+  </div>
+
+</div>
+<br>
+{% endblock %}
+

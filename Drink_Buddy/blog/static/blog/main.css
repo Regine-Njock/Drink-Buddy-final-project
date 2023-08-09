@@ -1,0 +1,106 @@
+body {
+    height: 100%;                   /* Set the height of HTML and body to 100% */
+    margin: 10; 
+    margin-top: 5rem;                     /* Remove default margin */
+    padding: 0;                     /* Remove default padding */
+    color: rgba(0, 0, 0, 0.782);     /* Set the text color */
+    text-align: left;              /* Set text alignment to right */
+    background-image: url('background_home.png');
+    background-size:cover;
+    font-family: 'Lato', sans-serif;
+    background-image: scale(0.5);
+    background-repeat: repeat;
+    text-align: left;
+}
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #444444;
+  }
+  
+  ul {
+    margin: 0;
+  }
+  
+  .bg-steel {
+    background-color: rgba(181, 247, 224, 0.551);
+  }
+  
+  .site-header .navbar-nav .nav-link {
+    color: #060707;
+  }
+  
+  .site-header .navbar-nav .nav-link:hover {
+    color: #d92828;
+  }
+  
+  .site-header .navbar-nav .nav-link.active {
+    font-weight: 500;
+  }
+  
+  .content-section {
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
+  
+  .article-title {
+    color: #444444;
+  }
+  
+  a.article-title:hover {
+    color: #428bca;
+    text-decoration: none;
+  }
+  
+  .article-content {
+    white-space: pre-line;
+  }
+  
+  .article-img {
+    height: 65px;
+    width: 65px;
+    margin-right: 16px;
+  }
+  
+  .article-metadata {
+    padding-bottom: 1px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #e3e3e3
+  }
+  
+  .article-metadata a:hover {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .article-svg {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+  }
+  
+  .account-img {
+    height: 125px;
+    width: 125px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .account-heading {
+    font-size: 2.5rem;
+  }
+
+  .navbar-brand span {
+    font-weight: bold;      /* Make the text bold */
+    color: #000;            /* Set the text color to black */
+    font-size: 20px;        /* Adjust the font size to 20 pixels */
+  }
+  .navbar {
+    background-color: rgba(181, 247, 224, 0.900); /* Set the background color for the navbar */
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  

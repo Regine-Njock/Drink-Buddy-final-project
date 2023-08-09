@@ -1,0 +1,191 @@
+.navbar-nav .nav-link {
+    color: rgba(0,0,0,1) !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgba(0,0,0,.5) !important;
+}
+
+body {
+    background-image: url('background_home.png');
+    background-size:cover;
+    font-family: 'Lato', sans-serif;
+    background-image: scale(0.5);
+    background-repeat: repeat;
+}
+
+
+/* Set common styles for the HTML and body */
+html, body {
+    height: 100%;                   /* Set the height of HTML and body to 100% */
+    margin: 0;                      /* Remove default margin */
+    padding: 0;                     /* Remove default padding */
+    color: rgba(0, 0, 0, 0.782);     /* Set the text color */
+}
+
+/* Styles for the navigation links */
+.navbar-nav .nav-link {
+    display: inline-block;          /* Display the links as inline blocks */
+    border: 1px solid black;        /* Add a solid black border */
+    padding: 10px;                  /* Add padding around the links */
+    margin: 5px;                    /* Add margin between the links */
+    border-radius: 10px;            /* Add rounded borders to the links */
+    transition: background-color 0.3s; /* Add transition for smooth hover effect on background color */
+    transition: transform 0.3s;     /* Add transition for smooth hover effect on transform */
+  }
+
+/* Styles for the navigation links on hover */
+.navbar-nav .nav-link:hover {
+    background-color: rgba(243, 247, 5, 0.409); /* Change background color on hover */
+    transform: scale(1.2);          /* Apply a scale transformation on hover */
+    /* Add any other styles you want for the hover effect */
+}
+
+/* Styles for the navbar */
+.navbar {
+    background-color: rgba(181, 247, 224, 0.900); /* Set the background color for the navbar */
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+/* Styles for the navbar brand */
+.navbar-brand {
+    display: flex;          /* Use flexbox for horizontal alignment */
+    align-items: center;    /* Align items vertically in the center */
+  }
+
+/* Styles for the logo image */
+.navbar-brand img {
+    border-radius: 50%;     /* Make the image circular */
+    margin-right: 10px;     /* Add a small margin to the right of the image */
+  }
+  
+/* Styles for the text */
+.navbar-brand span {
+    font-weight: bold;      /* Make the text bold */
+    color: #000;            /* Set the text color to black */
+    font-size: 20px;        /* Adjust the font size to 20 pixels */
+}
+
+/* Styles for the username welcome message for Premium account */
+.username{
+  text-align: center;
+  padding-top: 150px;
+  font-weight: bold;
+}
+
+/* Styles for the buttons on all pages */
+.buttons{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Hover effect for the buttons on all pages */
+.buttons:hover {
+    background-color: rgba(243, 247, 5, 0.409);
+    transform: scale(1.2);
+    }
+
+/* Setting style for the input fields */
+.input-style {
+    border: 1px solid black;    /* Add a 1px solid black border around the input */
+    padding: 10px;                /* Add 10px of padding inside the input */
+    margin: 5px;                  /* Add 5px of margin around the input */
+    border-radius: 10px;          /* Apply a border radius of 10px to give the input rounded corners */
+    width: 300px;                 /* Set the width of the input to 300px */
+    align-items: center;
+  }
+
+/* Setting background to text field */
+.text_field {
+  background-color: rgba(181, 247, 224, 0.900); /* Adjust the opacity as needed */
+  padding: 50px; /* Added padding to create spacing around the text */
+  color: #0e0e0e; /* Setting the text color */
+  text-align: center;
+}
+
+/* Setting background to text field */
+.text_heading {
+  background-color: rgb(181, 247, 224, 0.900); /* Adjust the opacity as needed */
+  padding:1px;
+  color: #0e0e0e; /* Setting the text color */
+  text-align: center;
+}
+
+/* .card-img-top {
+  width: 300px;
+  height: 300px;
+} */
+
+/* Styling the click here for more suggestions button on the premium page */
+.nav-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling of the recipes on Premium page */
+.card {
+  border: 1px solid #ccc;
+  padding: 2px;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+  border-radius: 10px; /* name card behind recipe image */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Add box shadow */
+}
+
+.card:hover {
+  border-color: #ff0000; /* Hover border color */
+  transform: scale(1.1); /* To control the pop-up effect */
+}
+
+/* Styling for the Recipe image */
+.card-img-top {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+  border-radius: 10px;/* border of recipe image */
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.1); /* Adjust the scale factor for the image pop-up effect */
+}
+
+/* Styling for the names of recipes under pictures */
+.card-title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Add the following CSS to display three cards in a row */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Styling to reduce the number of recipes displayed on each row */
+.col {
+  flex: 0 0 20%;
+  max-width: 20%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.result_image,
+.text_field {
+    display: inline-block;
+    vertical-align:auto; /* Adjust alignment as needed */
+}
+
+.result_image{
+  height: 30%;
+  width: 30%;
+}
+
+.trial{
+  display: flex;
+  flex-wrap: wrap;
+}

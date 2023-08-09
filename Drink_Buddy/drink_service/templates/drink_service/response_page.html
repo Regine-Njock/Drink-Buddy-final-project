@@ -1,0 +1,53 @@
+{% extends 'drink_service/base.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Response Page</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'drink_service/custom.css' %}">
+</head>
+{% block content %}
+
+<br>
+<br>
+<body>
+    <div class="text_field">
+        <h4>Location: {{ location }}</h4>
+        <h4>Weather Information</h4>
+        <p>Temperature: {{ temperature }}</p>
+        <p>Description: {{ description }}</p>
+        <p>Local Time: {{ local_time }}</p>
+        <p>Icon: {{ icon_weather }}</p>
+        <img src="{{ icon_link }}" alt="Icon">
+    </div>
+    <br>
+    <br>
+
+    <h2>Here are your suggestions:</h2>
+    <br>
+    <div class="suggestions-container">
+        {% for recipe in recipes %}
+          <div class="suggestions" style="width: 368px">
+              <img src="{{ recipe.imagefile.url }}" class="card-img-top" alt="">
+              <p>{{ recipe.name }}</p>
+              <p>{{ recipe.ingredients }}</p>
+              <p>{{ recipe.recipe }}</p>
+          </div>
+        {% endfor %}
+    </div>
+    <br>
+
+</body>
+<br>
+
+<div class="text-center">
+    <b>Need more suggestions?</b> 
+    <a href="{% url 'login' %}">     click here</a>
+
+</div>
+
+<br>
+<br>
+{% endblock %}
+
+</html>

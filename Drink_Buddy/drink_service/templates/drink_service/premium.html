@@ -1,0 +1,21 @@
+{% extends 'drink_service/premium_base.html' %}
+{% load static %}
+{% block content %}
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="username">
+    <h1>
+    {% if user.is_authenticated %}
+    Hi {{ user.username }}, welcome to Drink Buddy Premium!
+    {% endif %}
+    </h1>
+</div>
+
+<div><h4>
+    <p>Unlock a world of exquisite flavors and endless possibilities with our Premium page, gaining exclusive access to curated drink options, ranging from rare spirits to artisanal cocktails. Elevate your knowledge as a connoisseur through our educational section, delving into fascinating facts and historical anecdotes from the captivating world of drinks. Experience the epitome of luxury with personalized recommendations, early access to limited editions, and preferential pricing as a Premium member.</p>
+    <p>Immerse yourself in a community of like-minded enthusiasts, connecting through interactive forums, live tastings, and valuable insights. Access a treasure trove of hidden gems, showcasing rare, boutique, and hard-to-find beverages, ensuring an extraordinary taste experience that keeps you one step ahead.</p>
+</h4></div>
+{% endblock %}

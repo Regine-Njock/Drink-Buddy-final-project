@@ -1,0 +1,35 @@
+{% extends "drink_service/premium_drink_base.html" %}
+{% load static %}
+{% block content %}
+    <title>Recipe Detail</title>
+    <link rel="stylesheet" href="{% static 'drink_service/custom_premium.css' %}">
+</head>
+<body>
+    <header>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1>{{ recipe.name }}</h1>
+    </header>
+    <br>
+    <br>
+    <main>
+        <div  style="width: 500px;">
+        <img src="{{ recipe.imagefile.url }}" class="card-img-top">
+        <h2>{{ recipe.title }}</h2>
+        <p>{{ recipe.description }}</p>
+        <h3>Ingredients</h3>
+        {{ recipe.ingredients }}
+        <h3>Recipe</h3>
+        {{ recipe.recipe }}
+        </div>
+
+    </main>
+</body>
+    <footer>
+        <br>
+        <br>
+        <p>Drink Buddy &copy; 2023</p>
+    </footer>
+{% endblock content %}

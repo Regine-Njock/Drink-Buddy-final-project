@@ -1,0 +1,46 @@
+{% extends "drink_service/base.html" %}
+{% block content %}
+<br>
+<br>
+<br>
+<div class="row justify-content-center mt-5">
+    <div class="col-md-5">
+        <h2>Sign Up</h2>
+    </div>
+</div>
+
+<div class="row justify-content-center mt-5">
+    <div class="col-md-5">
+        
+        <form method="POST">
+            {% csrf_token %}
+            
+            <div class="form-group">
+                <label for="username">Username</label>
+
+                <input type="text" name="username" class="form-control" id="username" aria-describedby="usernameHelp" required style="border: 1px solid black; padding: 10px; margin: 5px; border-radius: 10px; width: 300px;">
+                <small id="usernameHelp" class="form-text text-muted">Your username must be unique.</small>
+            </div>
+            <div class="form-group">
+                <label for="password1">Password</label>
+                <input type="password" name="password1" class="form-control" id="password1" required style="border: 1px solid black; padding: 10px; margin: 5px; border-radius: 10px; width: 300px;">
+            </div>
+            <div class="form-group">
+                <label for="password2">Confirm Password</label>
+                <input type="password" name="password2" class="form-control" id="password2" required style="border: 1px solid black; padding: 10px; margin: 5px; border-radius: 10px; width: 300px;">
+                {% for field in form %}
+                    {% for error in field.errors %}
+                        <p style="color: red">{{ error }}</p>
+                    {% endfor %}
+                {% endfor %}
+                <label for="Email">Email</label>
+                <input type="email" class="form-control" name="email" id="reg_email" value="" required style="border: 1px solid black; padding: 10px; margin: 5px; border-radius: 10px; width: 300px;">
+            </div>
+            <button class = 'buttons' type="submit" class="btn btn-primary">Sign up</button>
+        </form>
+        
+    </div>
+</div>
+{% endblock %}
+
+

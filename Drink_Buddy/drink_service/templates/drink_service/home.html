@@ -1,0 +1,30 @@
+{% extends 'drink_service/base.html' %}
+{% load static %}
+{% block content %}
+
+<br>
+<br>
+<!-- <h1>Welcome to Drink Buddy App! </h1> -->
+<br>
+<!-- <p>This app will suggest you Drinks,Coffee,Tea according to weather. </p> -->
+<br>
+<br>
+<div class="location_info"><h3>
+    <p>
+        Welcome to Drink Buddy! We believe that the right drink can complement both the weather and the time of day. From refreshing iced beverages on sunny afternoons to cozy warm drinks for chilly evenings, our app will curate personalized drink recommendations to enhance your every moment. Discover the perfect blend of flavors that aligns with the current weather and time, ensuring a delightful and satisfying beverage experience.
+    </p>
+    <form method="post" action="{% url 'landing_page' %}">
+    {% csrf_token %}
+    {{ error }}
+    <br><br>
+    <label for="location">Enter your location:</label>
+    <input type="text" name="location" id="location" required class="input-style">
+    <button class = 'buttons' type="submit">Submit</button>
+    </form>
+</h3></div>
+
+<p><h4>Are you already a Premium member, then <a href="{% url 'login' %}"> login here </a> </h4></p>
+<p><h3>As a premium member you have the opportunity to choose your drinks, search for your drinks depending on your mood and many more!! Then see all the recipes and prepare what you want yourself! Great!!!</h3></p>
+{% endblock %}
+
+

@@ -1,0 +1,39 @@
+{% extends 'drink_service/base.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Landing Page</title>
+</head>
+<body>
+    
+{% block content %}
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+    <div><h4>
+    <p>At <b>Drink Buddy</b>, we are a team of dedicated individuals who developed this app as part of our final project in a one-year programming course. Our goal was to revolutionize the way people enjoy their beverages.</p>
+    <p>Our app aims to provide personalized drink suggestions based on the weather and time of your location. With just a few simple inputs, you'll receive tailored recommendations to enhance your drinking experience.</p>
+    <p>We understand that choosing the right drink can be a daunting task, so we've made it effortless for you. Whether it's a scorching summer day or a chilly winter evening, our app has the perfect suggestion to match your mood and the environment.</p>
+    <p>But we don't stop there. Our premium customers gain access to an extensive collection of drink recipes from around the world. From classic cocktails to innovative concoctions, our recipe database is a treasure trove for the adventurous drink enthusiasts.</p>
+    <p>Drinks are more than just beverages; they are an art form. That's why we're committed to providing valuable information and insights on various topics related to drinks. Stay ahead of the curve with our curated content on the latest trends, techniques, and trivia.</p>
+    <p>At <b>Drink Buddy</b>, we take pride in the quality of our app and services. We continuously improve and refine our features, incorporating user feedback and staying up-to-date with the latest advancements in technology and beverage culture.</p>
+    <p>Join our community of beverage enthusiasts and embark on a delightful journey through flavors, weather, and time. Cheers to great drinks, memorable experiences, and the joy of discovery!</p>
+    <p>If you have any questions, feedback, or suggestions, our friendly support team is here to assist you. We strive to ensure that your experience with our app is nothing short of exceptional.</p>
+    <p>Thank you for choosing <b>Drink Buddy</b>. Let's raise a glass and toast to the exciting world of drinks!</p>
+    </h4></div>
+
+    <br>
+    <form method="post" action="{% url 'landing_page' %}">
+        {% csrf_token %}
+        <label for="location">Enter your location:</label>
+        <input type="text" name="location" id="location" required class="input-style">
+        <button class = 'buttons' type="submit">Submit</button>
+    </form>
+   
+{% endblock %}  
+</body>
+</html>

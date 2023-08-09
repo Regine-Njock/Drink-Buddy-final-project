@@ -1,0 +1,86 @@
+{% extends "drink_service/premium_base.html" %}
+{% load static %}
+{% block content %}
+<br>
+<br>
+
+<div class="username">
+    <br>
+    <h1>All Recipes</h1>
+    <br>
+    <h2>
+    {% if user.is_authenticated %}
+    Hi {{ user.username }}, welcome to Drink Buddy Premium!
+    {% endif %}
+    </h2>
+    <h2>Click any drink you like and see it's recipes</h2>
+</div>
+<br>
+<br>
+<div class="row">
+    {% for recipe in recipes %}
+    
+        <div class="col">
+        <div class="card" style="width: 180px;">
+            <a href="{% url 'drink_service-detail' recipe.id %}">
+            <img src="{{ recipe.imagefile.url }}" class="card-img-top"></a>
+            <div class="card-body">
+                <h5 class="card-title">{{ recipe.name }}</h5>
+            </div>
+        </div>
+        </div>
+        
+    {% endfor %}
+</div>
+
+<br>
+<div class="container">
+    <nav aria-label="Recipe Pagination">
+      <ul class="pagination justify-content-center">
+
+        {% if recipes.has_previous %}
+        <li class="page-item">
+          <a class="page-link" href="?page={{ recipes.previous_page_number }}" aria-label="Previous">
+            Previous
+          </a>
+        </li>
+        {% else %}
+        <li class="page-item disabled">
+          <span class="page-link" aria-hidden="true">&laquo;</span>
+        </li>
+        {% endif %}
+
+        {% for i in recipes.paginator.page_range %}
+          {% if recipes.number == i %}
+          <li class="page-item active">
+            <span class="page-link">{{ i }}</span>
+          </li>
+          {% else %}
+          <li class="page-item">
+            <a class="page-link" href="?page={{ i }}">{{ i }}</a>
+          </li>
+          {% endif %}
+        {% endfor %}
+
+        {% if recipes.has_next %}
+        <li class="page-item">
+          <a class="page-link" href="?page={{ recipes.next_page_number }}" aria-label="Next">
+            Next
+          </a>
+        </li>
+        {% else %}
+        <li class="page-item disabled">
+          <span class="page-link" aria-hidden="true">&raquo;</span>
+        </li>
+        {% endif %}
+
+      </ul>
+    </nav>
+  </div>
+</body>
+</html>
+
+</div>
+<br>
+{% endblock %}
+
